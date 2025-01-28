@@ -374,8 +374,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Math\Range\MinimumNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Input\Geometry\ViewDirectionNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Graphs\Vector4MaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Legacy\SpriteLitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Drawing\Inspector\PropertyDrawerUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Legacy\SpriteLitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Nodes\Input\Texture\SampleTexture2DNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Legacy\AbstractMaterialNode0.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Interfaces\IMayRequireVertexColor.cs" />
@@ -453,8 +453,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Drawing\Inspector\PropertyDrawers\TextPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Serialization\JsonObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Graphs\IMaterialGraphAsset.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Serialization\RefValueEnumerable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Graphs\GradientInputMaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Serialization\RefValueEnumerable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Importers\RenderPipelineChangedCallback.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Generation\Contexts\TargetActiveBlockContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph\Editor\Data\Util\PrecisionUtil.cs" />

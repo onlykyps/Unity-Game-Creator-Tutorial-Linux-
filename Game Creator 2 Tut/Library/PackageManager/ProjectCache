@@ -1,28 +1,28 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game
-      Creator 2 Tut/Packages/manifest.json
+    m_FilePath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+      Tutorial Linux/Game Creator 2 Tut/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638733432543816879
-    m_Hash: 451489051
+      ticks: 638735497240000000
+    m_Hash: 335590527
   m_LockFileStatus:
-    m_FilePath: D:/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game
-      Creator 2 Tut/Packages/packages-lock.json
+    m_FilePath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+      Tutorial Linux/Game Creator 2 Tut/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638733432548636823
-    m_Hash: 954556719
+      ticks: 638735497240000000
+    m_Hash: 3153078654
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game
-  Creator 2 Tut/Packages
+m_ProjectPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+  Tutorial Linux/Game Creator 2 Tut/Packages
 m_EditorVersion: 6000.0.27f1 (27c554a2199c)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.4
@@ -30,8 +30,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.4
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.ai.navigation
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ai.navigation
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -139,8 +139,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.6.0
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -329,8 +329,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.1
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.collections
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.collections
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -498,8 +498,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -618,8 +618,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -725,8 +725,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.11.2
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.inputsystem
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -879,8 +879,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.3.2
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.mathematics
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.mathematics
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -969,8 +969,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.multiplayer.center
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1050,7 +1050,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: f502d8ac613fa076192423e73892fbd89eb4049b
+  fingerprint: ffda662e48c2b73bef70fa2973ac42ca8fef254c
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1060,8 +1060,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.render-pipelines.universal
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1213,7 +1213,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 148e1203423839de6472efc637a3640dc7a0268b
+  fingerprint: 9881f134c009714e740a4f5012a0d568da6a95c9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -1223,8 +1223,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.test-framework
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1387,8 +1387,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.timeline
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.timeline
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1566,13 +1566,113 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
     minimumUnityVersion: 2019.3.0a1
+- packageId: com.unity.toolchain.linux-x86_64@2.0.10
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.10
+  source: 1
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.toolchain.linux-x86_64
+  assetPath: Packages/com.unity.toolchain.linux-x86_64
+  name: com.unity.toolchain.linux-x86_64
+  displayName: Toolchain Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Toolchain to build player target Linux x86_64 on host Linux x86_64
+  errors: []
+  versions:
+    all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.9
+    - 2.0.10
+    compatible:
+    - 2.0.10
+    recommended: 2.0.10
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.10
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.9
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.10
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.9
+  keywords:
+  - toolchain
+  - linux
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638651065863710000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: c5a32c15f32b7de0b0aa81c256ea52b322478b15
+    path: 
+  unityLifecycle:
+    version: 2.0.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Optimized and reduced package size"}'
+  assetStore:
+    productId: 
+  fingerprint: 5a6ce31f8a65b8bae16857cfbdc108c58cdd34f9
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.10
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.ugui
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ugui
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1654,7 +1754,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 39a3f21cda3c1fcc427b8c2190194ca9b0e65c89
+  fingerprint: 9d9058d4bb03a69b30ff0c4823a6bb2a67eedf1e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1664,8 +1764,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1776,8 +1876,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1844,8 +1944,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1912,8 +2012,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1979,8 +2079,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2047,8 +2147,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2115,8 +2215,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2183,8 +2283,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2255,8 +2355,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.director
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2331,8 +2431,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2399,8 +2499,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2467,8 +2567,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2535,8 +2635,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2603,8 +2703,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2671,8 +2771,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2739,8 +2839,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2811,8 +2911,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2879,8 +2979,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2955,8 +3055,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3026,8 +3126,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3094,8 +3194,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3178,8 +3278,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3246,8 +3346,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3321,8 +3421,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3389,8 +3489,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3465,8 +3565,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3541,8 +3641,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3617,8 +3717,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3709,8 +3809,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3781,8 +3881,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.video
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3861,8 +3961,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3943,8 +4043,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4011,8 +4111,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4091,8 +4191,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4163,8 +4263,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4226,13 +4326,196 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+- packageId: com.unity.sysroot@2.0.10
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.10
+  source: 1
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.sysroot
+  assetPath: Packages/com.unity.sysroot
+  name: com.unity.sysroot
+  displayName: Sysroot Base
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: This is the base sysroot package required by all sysroot and toolchain
+    packages
+  errors: []
+  versions:
+    all:
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    - 2.0.10
+    compatible:
+    - 2.0.10
+    recommended: 2.0.10
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638500638510000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 48e503c8f30007e813fbcec90dc84795285406b4
+    path: 
+  unityLifecycle:
+    version: 2.0.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"bump version number to publish"}'
+  assetStore:
+    productId: 
+  fingerprint: 7bbbb9339c143f6fbccaeb0a52c77b9217b35a71
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.10
+    minimumUnityVersion: 2019.4.0a1
+- packageId: com.unity.sysroot.linux-x86_64@2.0.9
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.9
+  source: 1
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.sysroot.linux-x86_64
+  assetPath: Packages/com.unity.sysroot.linux-x86_64
+  name: com.unity.sysroot.linux-x86_64
+  displayName: Sysroot Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Sysroot used to build unity player for linux x86_64
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.9
+    compatible:
+    - 2.0.9
+    recommended: 2.0.9
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.10
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.10
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638500638600000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf7a008256a1175e0f8a0d7d26d6826cbfbe1bb2
+    path: 
+  unityLifecycle:
+    version: 2.0.9
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"bump version number to publish"}'
+  assetStore:
+    productId: 
+  fingerprint: 1998d1c7730e48fa49f28d983fececfc9cbd970b
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.9
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ext.nunit
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4311,8 +4594,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.render-pipelines.core
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4516,7 +4799,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: dd567eb7b467986cf92fb71f546cf91aae187cfb
+  fingerprint: e80007d160a0fa19cd55078a10a587c277a61080
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4526,8 +4809,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.shadergraph
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4720,7 +5003,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e6e0df3c9e43d268733e3882298a59923bdf76d3
+  fingerprint: 253a95f92c34b042c3a8c6a43c35bb26a640e43a
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4730,8 +5013,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.render-pipelines.universal-config
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.render-pipelines.universal-config
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -4819,7 +5102,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: fa63c96d3e1af317d84d171cd6c0e0658ab159df
+  fingerprint: ae49062cc978b6d8906942c0f746974868ff489e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4829,8 +5112,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.18
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.burst
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.burst
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5050,8 +5333,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.nuget.mono-cecil
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -5133,8 +5416,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.test-framework.performance
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -5269,8 +5552,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.searcher
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.searcher
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5356,8 +5639,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game
-    Creator 2 Tut\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator
+    Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.rendering.light-transport
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -5443,9 +5726,9 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 307bc27a498fc9cd409bbd426c85d8dc7f140bc1
+  fingerprint: e291d2b283b1e98987c6f75d18149bc0eb1ee8bc
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
     minimumUnityVersion: 2023.3.0b1
-m_BuiltInPackagesHash: 20e44c767eaf4744c76e72758d2720e9b1fba67b
+m_BuiltInPackagesHash: cbd950e553b6ad4e284b2f56cc024852fb2d1b9f
