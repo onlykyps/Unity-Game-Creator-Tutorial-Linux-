@@ -2592,13 +2592,19 @@ MonoBehaviour:
     m_SmoothTimePosition: 0.1
     m_SmoothTimeRotation: 0.1
   m_Clip:
-    rid: 7859971596164530388
+    rid: 4211052641059078155
   references:
     version: 2
     RefIds:
-    - rid: 7859971596164530388
-      type: {class: CameraClipNone, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
-      data: 
+    - rid: 4211052641059078155
+      type: {class: CameraClipZoom, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data:
+        m_LayerMask:
+          serializedVersion: 2
+          m_Bits: 51
+        m_Radius: 0.4
+        m_MinDistance: 0
+        m_SmoothTime: 0.5
 --- !u!1 &334473413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3341,7 +3347,7 @@ Transform:
   m_GameObject: {fileID: 469628386}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -695.5994, y: -174.4673, z: 130.43054}
+  m_LocalPosition: {x: -679.39, y: -174.4673, z: 130.43054}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7289,22 +7295,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55db089f35f4457a8ff1981374b2de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsMainShot: 1
+  m_IsMainShot: 0
   m_TimeMode:
     m_UpdateTime: 0
   m_Clipping: 0
   m_ShotType:
-    rid: 7859971596164530400
+    rid: 4211052641059078144
   references:
     version: 2
     RefIds:
-    - rid: 7859971596164530400
-      type: {class: ShotTypeFollow, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+    - rid: 4211052641059078144
+      type: {class: ShotTypeThirdPerson, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
       data:
         m_ShotSystemViewport:
           m_Projection:
             m_IsEnabled: 0
-            m_Value: 0
+            m_Value: 1
           m_FieldOfView:
             m_IsEnabled: 0
             m_Value: 60
@@ -7317,34 +7323,87 @@ MonoBehaviour:
           m_ClipPlaneFar:
             m_IsEnabled: 0
             m_Value: 1000
-        m_ShotSystemLook:
-          m_IsActive: 1
-          m_LookTarget:
+        m_Zoom:
+          m_TargetZoom: 0
+          m_MinDistance: 3
+          m_SmoothTime: 0.1
+          m_InputZoom:
+            m_Input:
+              rid: 4211052641059078145
+          m_Sensitivity:
             m_Property:
-              rid: 7859971596164530401
-          m_LookOffset:
+              rid: 4211052641059078146
+        m_ThirdPerson:
+          m_Pivot:
             m_Property:
-              rid: 7859971596164530402
-        m_ShotSystemFollow:
-          m_Follow:
+              rid: 4211052641059078147
+          m_Shoulder:
             m_Property:
-              rid: 7859971596164530403
-          m_Distance:
+              rid: 4211052641059078148
+          m_Lift:
             m_Property:
-              rid: 7859971596164530404
-    - rid: 7859971596164530401
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 7859971596164530402
-      type: {class: GetDirectionVector3Zero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 7859971596164530403
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 7859971596164530404
-      type: {class: GetDirectionVector, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+              rid: 4211052641059078149
+          m_Radius:
+            m_Property:
+              rid: 4211052641059078150
+          m_InputRotate:
+            m_Input:
+              rid: 4211052641059078151
+          m_SensitivityX:
+            m_Property:
+              rid: 4211052641059078152
+          m_SensitivityY:
+            m_Property:
+              rid: 4211052641059078153
+          m_MaxPitch: 100
+          m_MaxYaw:
+            m_IsEnabled: 1
+            m_Value: 100
+          m_SmoothTime:
+            m_Property:
+              rid: 4211052641059078154
+          m_Align:
+            m_AutoAlign: 1
+            m_Delay: 3
+            m_SmoothTime: 3
+    - rid: 4211052641059078145
+      type: {class: InputValueVector2Scroll, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Direction: {x: 0, y: 5, z: -4}
+        m_Direction: 0
+    - rid: 4211052641059078146
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.009999999776482582
+    - rid: 4211052641059078147
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4211052641059078148
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.5
+    - rid: 4211052641059078149
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.5
+    - rid: 4211052641059078150
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 5
+    - rid: 4211052641059078151
+      type: {class: InputValueVector2MotionSecondary, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4211052641059078152
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 5
+    - rid: 4211052641059078153
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 5
+    - rid: 4211052641059078154
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.15000000596046448
 --- !u!4 &1266424002
 Transform:
   m_ObjectHideFlags: 0
