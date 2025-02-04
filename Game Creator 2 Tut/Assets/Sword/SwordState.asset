@@ -86,9 +86,9 @@ MonoBehaviour:
   m_AirborneMode: 0
   m_Stand8Points:
     m_Idle: {fileID: 7400026, guid: 6e4b26fde7f77c046bed3bb532de26f1, type: 3}
-    m_Forward: {fileID: 7400000, guid: ddf59738cd3fce848867929e0595edc5, type: 3}
-    m_Backward: {fileID: 0}
-    m_Right: {fileID: 0}
+    m_Forward: {fileID: -203655887218126122, guid: e1da5c567c122138b965beb8d97d9db8, type: 3}
+    m_Backward: {fileID: -203655887218126122, guid: e790e0bb1022fa3fc91eb29a24c5596c, type: 3}
+    m_Right: {fileID: -203655887218126122, guid: 0985b500927e8d09e8497a6c782dcf2f, type: 3}
     m_Left: {fileID: 0}
     m_ForwardRight: {fileID: 0}
     m_ForwardLeft: {fileID: 0}
@@ -135,11 +135,11 @@ AnimatorOverrideController:
   - m_OriginalClip: {fileID: 7400000, guid: 134f748d7ce0049f1b4827c6a710697e, type: 2}
     m_OverrideClip: {fileID: 7400026, guid: 6e4b26fde7f77c046bed3bb532de26f1, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 4ee53f6c9d28a4e2ab78924219e1314c, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: ddf59738cd3fce848867929e0595edc5, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: e1da5c567c122138b965beb8d97d9db8, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 06adbf3a4686a4901884ac6bccb86be7, type: 2}
-    m_OverrideClip: {fileID: 0}
+    m_OverrideClip: {fileID: -203655887218126122, guid: e790e0bb1022fa3fc91eb29a24c5596c, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 505019e3f98744942a48950d518a4916, type: 2}
-    m_OverrideClip: {fileID: 0}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 0985b500927e8d09e8497a6c782dcf2f, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 2a8a7956fa0e942db88e413b564bbdb9, type: 2}
     m_OverrideClip: {fileID: 0}
   - m_OriginalClip: {fileID: 7400000, guid: 397dff4d0d50d42e4a9e2b8b393e1998, type: 2}

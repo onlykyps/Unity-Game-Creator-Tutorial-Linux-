@@ -31,10 +31,14 @@ MonoBehaviour:
   m_ParriedReaction: {fileID: 0}
   m_OnEquip:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 78474438829670409
+      - rid: 78474438829670427
   m_OnUnequip:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 78474438829670433
+      - rid: 78474438829670436
   m_OnDodge:
     m_Instructions:
       m_Instructions: []
@@ -58,6 +62,100 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 78474438829670409
+      type: {class: InstructionCharacterAttachProp, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 78474438829670412
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 78474438829670411
+        m_Handle:
+          m_Type: 0
+          m_Bone:
+            m_Type: 1
+            m_Human: 18
+            m_Path: 
+          m_LocalPosition: {x: 0, y: 0, z: 0}
+          m_LocalRotation: {x: 0, y: 0, z: 0}
+          m_Handle: {fileID: 0}
+    - rid: 78474438829670411
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 2407187185418060595, guid: 4e0d322ad56d679c0a59a92627043ca1, type: 3}
+    - rid: 78474438829670412
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 78474438829670427
+      type: {class: InstructionCharacterNavigationFacing, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 78474438829670428
+        m_Rotation:
+          m_Facing:
+            rid: 78474438829670431
+    - rid: 78474438829670428
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 78474438829670431
+      type: {class: UnitFacingObjectDirection, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_DirectionOf:
+          m_Property:
+            rid: 78474438829670432
+    - rid: 78474438829670432
+      type: {class: GetGameObjectCameraMain, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 78474438829670433
+      type: {class: InstructionCharacterRemoveProp, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 78474438829670434
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 78474438829670435
+    - rid: 78474438829670434
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 78474438829670435
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 2407187185418060595, guid: 4e0d322ad56d679c0a59a92627043ca1, type: 3}
+    - rid: 78474438829670436
+      type: {class: InstructionCharacterNavigationFacing, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 78474438829670437
+        m_Rotation:
+          m_Facing:
+            rid: 78474438829670438
+    - rid: 78474438829670437
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 78474438829670438
+      type: {class: UnitFacingPivot, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_DirectionFrom: 0
+        m_Axonometry:
+          m_Axonometry:
+            rid: 78474438829670439
+    - rid: 78474438829670439
+      type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 7859971681650737213
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -84,7 +182,7 @@ MonoBehaviour:
     - rid: 7859971681650737219
       type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Dirty: 81520
+        m_Dirty: 71683
         m_Data:
           m_Keys: ddcc6fc2160f121a6c5eb342bbfb835c
           m_Values:
@@ -133,7 +231,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions: []
-        m_Skill: {fileID: 0}
+        m_Skill: {fileID: 11400000, guid: aa262b7a3d761ad4ba5d7afdda75b4f7, type: 2}
     - rid: 7859971681650737228
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -154,7 +252,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions: []
-        m_Skill: {fileID: 0}
+        m_Skill: {fileID: 11400000, guid: 45067656312a4de4ab72c27a722c2cfe, type: 2}
     - rid: 7859971681650737230
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -175,7 +273,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions: []
-        m_Skill: {fileID: 0}
+        m_Skill: {fileID: 11400000, guid: e8934547686c1739ab5ccf5fe7c34950, type: 2}
     - rid: 7859971681650737232
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -196,7 +294,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions: []
-        m_Skill: {fileID: 0}
+        m_Skill: {fileID: 11400000, guid: 9799a8eba125239e990b997c830016ea, type: 2}
     - rid: 7859971681650737234
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 

@@ -37,11 +37,11 @@ MonoBehaviour:
   m_Strike:
     m_Direction: 3
     m_Predictions: 1
-    m_UseStrikers: 0
+    m_UseStrikers: 2
     m_Id:
-      m_String: striker-id
+      m_String: SwordStriker
   m_Trail:
-    m_IsActive: 1
+    m_IsActive: 0
     m_Length:
       m_IsEnabled: 0
       m_Value: 2
@@ -74,9 +74,9 @@ MonoBehaviour:
     m_HitEffect:
       m_Property:
         rid: 7859971681650737245
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: ddf59738cd3fce848867929e0595edc5, type: 3}
   m_Mask: {fileID: 101100000, guid: c1d1c130e45b5b547a11583f67145ef5, type: 2}
-  m_Motion: 0
+  m_Motion: 1
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1
