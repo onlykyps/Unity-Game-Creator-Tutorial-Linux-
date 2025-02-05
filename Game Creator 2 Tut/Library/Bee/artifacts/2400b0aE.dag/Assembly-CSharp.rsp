@@ -426,6 +426,10 @@
 -analyzer:"/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsAnimatorParameterRemover.cs"
+"Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsAnimatorStateChanger.cs"
+"Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsCamera.cs"
+"Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Scripts/BasicMotionsCharacterController.cs"
 "Assets/NewMonoBehaviourScript.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
