@@ -8,12 +8,28 @@
     "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Packages/packages-lock.json"
   ],
   "outputs": {
+    "com.unity.ads@4.4.2": {
+      "name": "com.unity.ads",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ads",
+      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
+      "editorCompatibility": "2018.4.18f1",
+      "version": "4.4.2",
+      "source": "registry"
+    },
     "com.unity.ai.navigation@2.0.4": {
       "name": "com.unity.ai.navigation",
       "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.ai.navigation",
       "fingerprint": "3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764",
       "editorCompatibility": "2023.2.0a18",
       "version": "2.0.4",
+      "source": "registry"
+    },
+    "com.unity.analytics@3.8.1": {
+      "name": "com.unity.analytics",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.analytics",
+      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "3.8.1",
       "source": "registry"
     },
     "com.unity.collab-proxy@2.6.0": {
@@ -71,6 +87,14 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin"
+    },
+    "com.unity.purchasing@4.12.2": {
+      "name": "com.unity.purchasing",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.purchasing",
+      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "4.12.2",
+      "source": "registry"
     },
     "com.unity.render-pipelines.universal@17.0.3": {
       "name": "com.unity.render-pipelines.universal",
@@ -372,6 +396,14 @@
       "version": "17.0.3",
       "source": "builtin"
     },
+    "com.unity.services.core@1.13.0": {
+      "name": "com.unity.services.core",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.services.core",
+      "fingerprint": "ebe452e552b92964f64e438bdc2e6a7d850c66cc",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.13.0",
+      "source": "registry"
+    },
     "com.unity.burst@1.8.18": {
       "name": "com.unity.burst",
       "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.burst",
@@ -396,6 +428,14 @@
       "version": "3.0.3",
       "source": "registry"
     },
+    "com.unity.services.analytics@6.0.1": {
+      "name": "com.unity.services.analytics",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.services.analytics",
+      "fingerprint": "f7e249983920dd67eba8952b09e37a6fe4582dd0",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "6.0.1",
+      "source": "registry"
+    },
     "com.unity.searcher@4.9.2": {
       "name": "com.unity.searcher",
       "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.searcher",
@@ -411,6 +451,14 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin"
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "resolvedPath": "/media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut/Library/PackageCache/com.unity.nuget.newtonsoft-json",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry"
     }
   }
 }

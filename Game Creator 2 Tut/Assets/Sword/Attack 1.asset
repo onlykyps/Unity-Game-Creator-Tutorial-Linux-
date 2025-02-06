@@ -74,9 +74,9 @@ MonoBehaviour:
     m_HitEffect:
       m_Property:
         rid: 7859971681650737245
-  m_Animation: {fileID: 7400000, guid: ddf59738cd3fce848867929e0595edc5, type: 3}
-  m_Mask: {fileID: 101100000, guid: c1d1c130e45b5b547a11583f67145ef5, type: 2}
-  m_Motion: 1
+  m_Animation: {fileID: 7400000, guid: f1613afb92638e743bace9a9392b5ee7, type: 3}
+  m_Mask: {fileID: 31900000, guid: e186a0c8c21ef0f4bbbc124ac286ab4d, type: 2}
+  m_Motion: 0
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1
