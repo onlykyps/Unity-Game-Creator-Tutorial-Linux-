@@ -515,6 +515,12 @@
     <Reference Include="nunit.framework">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
@@ -533,11 +539,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -928,6 +940,10 @@
       <Project>{3f29cecd-cfef-26c3-43a5-6d0fe69b7770}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
+      <Project>{9569931a-a166-a8df-5f9b-2e9638f21a59}</Project>
+      <Name>UnityEngine.Advertisements.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
       <Project>{7084bd02-e864-6460-6e5f-df2066da157a}</Project>
       <Name>Unity.InputSystem.ForUI</Name>
@@ -936,29 +952,45 @@
       <Project>{c7b4e079-c2c1-17e3-e459-0613a0c1f0b4}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{25a05b38-a1e4-4790-5653-19596e3ec4ec}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{303ec2f1-6d09-1a88-cfe6-db5268d4badd}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
+      <Project>{50774683-4439-137b-f6ca-1c477ac2a523}</Project>
+      <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.csproj">
       <Project>{c875e3b8-83bd-dcd5-b234-f709ea90ee8f}</Project>
       <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{25a05b38-a1e4-4790-5653-19596e3ec4ec}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Core.csproj">
       <Project>{cdf64c46-5cfd-ed15-765e-4a069ef4e08e}</Project>
       <Name>GameCreator.Runtime.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.csproj">
+      <Project>{0f54c502-74cf-94ba-1345-43a923b88b2d}</Project>
+      <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{5d41ff54-69e6-db67-13dc-e6dc12cd04d8}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.csproj">
+      <Project>{7cace423-1b71-dac5-725e-f91e069b809c}</Project>
+      <Name>Unity.Services.Analytics</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
       <Project>{50865e7e-ccf9-c153-f839-ec8140a8e7af}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{d62f1dda-130e-b330-0756-901766742512}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Stats.csproj">
       <Project>{f483221d-970d-97af-4895-e03803188176}</Project>
@@ -968,9 +1000,9 @@
       <Project>{e3268229-8309-6282-b14e-2ab9f4488579}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{793b3201-167d-ee94-a507-95ec546e1402}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
+    <ProjectReference Include="Purchasing.Common.csproj">
+      <Project>{8cc0a9a3-4fad-a4d6-0213-e272c925abc6}</Project>
+      <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj">
       <Project>{ac10ac32-16c6-a265-e394-58b171c7d6bb}</Project>
@@ -980,21 +1012,29 @@
       <Project>{6c489587-c25d-7765-71ae-7f47bc4ad221}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
-      <Project>{9f829cab-23c5-f155-2904-90163f6557cd}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
-    </ProjectReference>
     <ProjectReference Include="GameCreator.Editor.Stats.csproj">
       <Project>{628c107b-1948-0cb5-f33b-fb2aca5c4b4a}</Project>
       <Name>GameCreator.Editor.Stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
+      <Project>{9f829cab-23c5-f155-2904-90163f6557cd}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{16419576-5cc6-99aa-7d35-24b99cf52547}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{793b3201-167d-ee94-a507-95ec546e1402}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{bd7682de-2f43-5ee7-d5d0-c243e6a133f0}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.Purchasing.csproj">
+      <Project>{9d43dd0e-8130-2d9a-47d1-99ffdf207cb6}</Project>
+      <Name>UnityEditor.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{b7334674-231e-956a-d62a-682eb737dc0b}</Project>
@@ -1007,6 +1047,10 @@
     <ProjectReference Include="GameCreator.Editor.Core.csproj">
       <Project>{d39b0e15-56b5-bd24-9b35-4fb7f8b9a338}</Project>
       <Name>GameCreator.Editor.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.csproj">
+      <Project>{af2083b1-c5e0-db7e-2ca0-9e86f3824571}</Project>
+      <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Melee.csproj">
       <Project>{e4060acd-e4f4-31da-1bc2-a02b308aef2b}</Project>
@@ -1044,9 +1088,17 @@
       <Project>{3b7aaae6-6364-28fc-8b23-ffd8dc358ed5}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
+      <Project>{16e7cd73-9cda-5e58-a1ab-afd70dc508fc}</Project>
+      <Name>UnityEngine.Purchasing.SecurityStub</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Collections.Editor.csproj">
       <Project>{78d7c69e-5f17-7fad-c65b-bc4965d4a86e}</Project>
       <Name>Unity.Collections.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameCreator.Runtime.Inventory.csproj">
+      <Project>{874c775b-f807-e611-6ae0-5177a9dedacc}</Project>
+      <Name>GameCreator.Runtime.Inventory</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{5121f7c1-667e-9a6f-e794-4bdea44be70c}</Project>
@@ -1068,6 +1120,10 @@
       <Project>{2cb5a70d-1f6c-90a7-72ec-bbd47dea2738}</Project>
       <Name>Unity.AI.Navigation.Updater</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
+      <Project>{3cda7964-34f7-0eaf-9186-111b116f7c5a}</Project>
+      <Name>UnityEngine.Purchasing.SecurityCore</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{564b2ded-0210-c4c3-8607-5fb787a34756}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
@@ -1079,6 +1135,10 @@
     <ProjectReference Include="GameCreator.Editor.Melee.csproj">
       <Project>{2aa758ed-e4ff-7ec1-87a7-8598e7821ff8}</Project>
       <Name>GameCreator.Editor.Melee</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{856a34c5-db53-3488-adbf-ba7a90f144d4}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{239f6d79-09b4-4ed9-f97a-1587468aba4a}</Project>
@@ -1108,9 +1168,17 @@
       <Project>{a93c14be-e89d-ade6-c469-61b222001672}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Analytics.csproj">
+      <Project>{7c2839b3-4fa4-a4cf-c64c-7bb2400128c7}</Project>
+      <Name>Analytics</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{092ac3e9-ba05-5dc6-7893-a09f180542c4}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{3b3260ce-ff78-476f-1a70-ce78d58e1bf6}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
       <Project>{e5bbaa00-11b8-6988-6901-bf0632b7440c}</Project>
@@ -1124,6 +1192,10 @@
       <Project>{d8f4d463-fcd1-6ec5-c0b1-18e70e62f670}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
+      <Project>{ded3e17e-deda-e46d-9c3b-6b8f8e20dfab}</Project>
+      <Name>UnityEngine.Purchasing.Stores</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{c6e06a3b-ea58-15ad-1457-ca47f492760c}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -1135,6 +1207,14 @@
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{a0e26705-2cb2-c765-8f09-905e1f02258a}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameCreator.Editor.Inventory.csproj">
+      <Project>{043d25e2-1f6d-3c0a-1953-2f8038aeb489}</Project>
+      <Name>GameCreator.Editor.Inventory</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{0d6e71e7-101b-84f9-8662-38df6a29e0f1}</Project>
+      <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{f3ef51da-1357-8598-0312-dc8c99d64cd8}</Project>

@@ -190,8 +190,8 @@
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\TypeSelector\TypeBook\TypeNode.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\Changers\ChangeBoolDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Cameras\Drawers\Systems\ShotSystemFollowDrawer.cs" />
-    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\UI\Templates\PadBox.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Variables\Drawers\Utilities\Detectors\DetectorLocalListVariableDrawer.cs" />
+    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\UI\Templates\PadBox.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\EditorSettings\EditorSettingsRegistrar.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\VisualScripting\Sequence\Tools\TrackTool.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\TextArea\TextAreaWideDrawer.cs" />
@@ -274,8 +274,8 @@
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\GameObject\NavAreaMaskDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Attributes\Drawers\Conditions\ConditionHideDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Settings\Panels\SettingsContentDetails.cs" />
-    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Input\InputMapFromAssetDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Characters\Features\Skeleton\Drawers\TetherLimit.cs" />
+    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Input\InputMapFromAssetDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Characters\Features\Animim\Assets\StateEditor.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\VisualScripting\Instructions\Drawers\NavigationOptionsDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Hub\Classes\HitData.cs" />
@@ -435,9 +435,9 @@
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Installs\Classes\Dependency.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\Box\TBoxDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Cameras\Drawers\TShotTypeElement.cs" />
-    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\Reflection\Properties\ReflectionPropertyBoolDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Characters\Systems\Units\Subunits\MotionInteractionDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\UI\UnityUI\Editors\InputFieldTMPPropertyStringEditor.cs" />
+    <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Utilities\Helpers\Reflection\Properties\ReflectionPropertyBoolDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\UI\Templates\ContentBox.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\Common\Polymorphism\Properties\Fields\PropertyGetInstantiateDrawer.cs" />
     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Editor\VisualScripting\Instructions\Selectors\TypeSelectorElementInstruction.cs" />
@@ -1025,6 +1025,12 @@
     <Reference Include="nunit.framework">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
@@ -1043,11 +1049,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

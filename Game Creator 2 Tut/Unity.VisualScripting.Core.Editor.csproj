@@ -97,9 +97,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\AssetBundleCreator.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Exceptions\EditorDebugUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Products\ProductAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\ReloadAssets.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\SearchUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Platforms\ConstructorInfoStubWriter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\ReloadAssets.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Interface\LudiqStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Widgets\WidgetAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Assignment\Assignment.cs" />
@@ -131,8 +131,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_1_2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Windows\SinglePageWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\SemanticLabel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\ScriptReferenceReplacement.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyOptionTreeExtensionAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\ScriptReferenceReplacement.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Variables\VariableDeclarationInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\Migrations\Migration_1_2_4_to_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_1_0.cs" />
@@ -480,14 +480,14 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_4_6.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Description\GraphDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Inspection\Unity\ColorInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Reflection\EnumOptionTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Windows\BackupWindow\BackupPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Reflection\EnumOptionTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Platforms\MethodBaseStubWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\ResourceProviders\CreateTextureOptions.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\Changelogs\Changelog_1_4_5.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Inspection\Primitives\LongInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\BoltGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Inspection\Primitives\GuidInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\BoltGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyOptionAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\SemanticVersion.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\Warning.cs" />
@@ -888,6 +888,12 @@
     <Reference Include="nunit.framework">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
@@ -906,11 +912,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

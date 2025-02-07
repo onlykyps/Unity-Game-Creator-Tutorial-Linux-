@@ -209,8 +209,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\RenderPipeline\IVolumetricCloud.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\PostProcessing\IPostProcessComponent.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerFoldout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Lighting\ProbeVolume\ProbeVolume.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerMessageBox.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Lighting\ProbeVolume\ProbeVolume.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Utilities\ColorSpaceUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\RenderGraph\RenderGraphResourceRegistry.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Lighting\SphericalHarmonics.cs" />
@@ -272,8 +272,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerVBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\PostProcessing\HDROutputDefines.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Utilities\TileLayoutUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\DebugShapes.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Utilities\CoreUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\DebugShapes.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\RenderGraph\Compiler\PassesData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Camera\CameraSwitcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core\Runtime\Debugging\DebugFrameTiming.cs" />
@@ -518,6 +518,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

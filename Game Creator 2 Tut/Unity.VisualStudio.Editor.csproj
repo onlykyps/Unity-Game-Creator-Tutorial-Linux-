@@ -456,6 +456,9 @@
     <Reference Include="nunit.framework">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
     </Reference>

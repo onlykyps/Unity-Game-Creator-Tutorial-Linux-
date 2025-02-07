@@ -87,9 +87,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\Optimization\InstanceInvokerBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Graphs\GraphInstances.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Profiling\ProfilingScope.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Unity\RequiresUnityAPIAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\EditorBinding\Inspector\InspectorActionDirectionAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Unity\RequiresUnityAPIAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Collections\INotifiedCollectionItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Machines\Machine.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\Operators\OperatorUtility.cs" />
@@ -332,8 +332,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Properties\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Serialization\SerializeAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\Operators\LeftShiftHandler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\UI\UnityOnDropdownValueChangedMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\EditorBinding\Inspector\InspectorLabelAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\UI\UnityOnDropdownValueChangedMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Reflection\Optimization\Action_6.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\MessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsMemberSerialization.cs" />
@@ -348,8 +348,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnMouseEnterMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Ensure\EnsureThat.Objects.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsConfig.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\IGettable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Unity\SceneSingleton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\IGettable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\UIInterfaces\UnityOnDragMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Collections\IKeyedCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Cloning\ISpecifiesCloner.cs" />
@@ -368,8 +368,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\UI\UnityOnToggleValueChangedMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Graphs\IGraphParentElement.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionExit2DMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Utilities\OverrideStack.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionExit2DMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Graphs\IGraphDebugData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsIgnoreAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsConverter.cs" />
@@ -839,6 +839,12 @@
     <Reference Include="nunit.framework">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
@@ -857,11 +863,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

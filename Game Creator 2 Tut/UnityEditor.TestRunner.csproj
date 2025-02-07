@@ -84,8 +84,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\Api\IgnoreTest.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestRunnerUIFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\NUnitExtension\Attributes\ITestPlayerBuildModifier.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\Api\Analytics\TestTreeData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlayerLauncherTestRunSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\Api\Analytics\TestTreeData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\GUI\AssetsDatabaseHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Callbacks\WindowResultUpdaterDataHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\Scene\SceneWrapper.cs" />
@@ -104,8 +104,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestRunnerApi.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\Helpers\PrebuildSetupAttributeFinder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\RemotePlayerLogController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModePCHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\IPlatformSetup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\EditModePCHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\TestState.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\Messages\EditorVersionMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\SettingsBuilder.cs" />
@@ -243,8 +243,8 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestListTreeViewGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\Api\Analytics\AnalyticsTestCallback.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\TestListCache.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\Messages\TestStartedMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\Platform\PlatformSpecificPostBuildTask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\UnityTestProtocol\Messages\TestStartedMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\CommandLineTest\RunData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\ITestListProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\CleanupTestControllerTask.cs" />

@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Assets\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Animations\Kevin Iglesias\Basic Motions\DemoScene\Scripts\BasicMotionsAnimatorStateChanger.cs" />
+    <Compile Include="Assets\Animations\Kevin Iglesias\Basic Motions\DemoScene\Scripts\BasicMotionsCamera.cs" />
+    <Compile Include="Assets\Animations\Brawler Animations Sample\DisplayAnimation.cs" />
+    <Compile Include="Assets\Animations\Kevin Iglesias\Basic Motions\DemoScene\Scripts\BasicMotionsAnimatorParameterRemover.cs" />
+    <Compile Include="Assets\Animations\Kevin Iglesias\Basic Motions\DemoScene\Scripts\BasicMotionsCharacterController.cs" />
+    <Compile Include="Assets\Animations\DoubleL\Demo\DemoCameraController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
@@ -272,6 +278,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -645,6 +654,10 @@
       <Project>{3a80e8b7-b967-3737-6566-247a7e20d1ed}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Codeless.Player.csproj">
+      <Project>{d459b12e-ab69-0432-fd1f-7fc97bd52187}</Project>
+      <Name>UnityEngine.Purchasing.Codeless.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
       <Project>{3ec7c8e2-e992-0817-6e01-91eba0247615}</Project>
       <Name>Unity.AI.Navigation.Player</Name>
@@ -653,17 +666,33 @@
       <Project>{493afdb6-3587-e55d-e204-b7f94acfe481}</Project>
       <Name>GameCreator.Runtime.Core.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
+      <Project>{a0dd5638-77e8-062b-9a49-6be5fe7b3b27}</Project>
+      <Name>UnityEngine.Purchasing.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{dff9e5b6-088d-1169-ae01-c179bbbd0c82}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
+      <Project>{a0271c9b-ed8a-06af-a136-b85b60680118}</Project>
+      <Name>Unity.Services.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
       <Project>{00b429a2-0a71-389e-0728-b303f18045f2}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.Player.csproj">
+      <Project>{fe45abb6-033b-8192-db83-3bf4e1056c6d}</Project>
+      <Name>Unity.Analytics.DataPrivacy.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Stats.Player.csproj">
       <Project>{bbd7c2a1-17a9-d10e-6c08-3645d1846932}</Project>
       <Name>GameCreator.Runtime.Stats.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Purchasing.Common.Player.csproj">
+      <Project>{6c4e30c3-49b6-b763-89a2-32bc0770a96f}</Project>
+      <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.Player.csproj">
       <Project>{662da809-e481-0037-3187-480817e76898}</Project>
@@ -680,6 +709,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
       <Project>{3c0b44ee-eb89-3220-5360-009058504d31}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
+      <Project>{8a506dd4-f5a8-9163-5cce-b1b16167ad6f}</Project>
+      <Name>UnityEngine.Advertisements.Player</Name>
     </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Melee.Player.csproj">
       <Project>{5bc9c018-3d47-6e5f-48cc-02ea918f8fec}</Project>
@@ -701,6 +734,14 @@
       <Project>{09b2d058-ed3d-dbe0-d4ab-1851b14389da}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.Player.csproj">
+      <Project>{6a6711a0-70b5-d869-e4c3-181743f624da}</Project>
+      <Name>UnityEngine.Purchasing.SecurityStub.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameCreator.Runtime.Inventory.Player.csproj">
+      <Project>{c85c59f8-d1b5-6636-55da-7bc0b085fef1}</Project>
+      <Name>GameCreator.Runtime.Inventory.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
       <Project>{7c3d327a-fe5f-d5a7-9f40-597f02b937bb}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
@@ -709,9 +750,17 @@
       <Project>{0723ba1b-1505-fa99-b44f-cb5473015010}</Project>
       <Name>Unity.Multiplayer.Center.Common.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
+      <Project>{b7fc8220-94a6-3b55-903c-90d89875aa7a}</Project>
+      <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{cd62910b-e2a5-9cc3-1189-1de40e7b8489}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
+      <Project>{1a6da548-01ba-bd59-c8d1-27cd3571e921}</Project>
+      <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{fe27b122-b420-c2ae-3100-9b0a710b76fa}</Project>
@@ -725,9 +774,21 @@
       <Project>{140774d4-7eba-43f4-1d41-758e27739911}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
+      <Project>{507ee412-b18f-4b14-ef8f-a53bd2dcbc32}</Project>
+      <Name>Unity.Services.Core.Environments.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
+      <Project>{648b4429-452f-c7c1-095e-410c24023e9c}</Project>
+      <Name>UnityEngine.Purchasing.Stores.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{5f382f5c-ae3f-278b-7fc9-e52ab61a0cef}</Project>
       <Name>Unity.Burst.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{5f72db72-ed9b-9cf2-89ef-0d55fe18a210}</Project>
+      <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{0d2d1a12-85ba-02cf-9490-3659ed95e1aa}</Project>

@@ -112,10 +112,10 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\InputActionState.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Devices\Precompiled\FastTouchscreen.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\Composites\TwoModifiersComposite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Controls\StickControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\UITKAssetEditor\Views\InputActionsTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Devices\Touchscreen.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\Composites\TwoModifiersComposite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\Analytics\PlayerInputManagerEditorAnalytic.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Events\DeviceConfigurationEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\InputUpdateType.cs" />
@@ -209,8 +209,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\Observables\ForDeviceEventObservable.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\SavedState.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\InputControlScheme.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\OneOrMore.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\InputActionType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\OneOrMore.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\DelegateHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\UITKAssetEditor\Views\ViewStateCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Plugins\UI\BaseInputOverride.cs" />
@@ -277,8 +277,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\DisplayStringFormatAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Actions\Composites\OneModifierComposite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\PropertyDrawers\InputActionReferenceSearchProviders.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Controls\Processors\CompensateRotationProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\Settings\InputSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Controls\Processors\CompensateRotationProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\State\InputState.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Controls\Vector2Control.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Devices\Pointer.cs" />
@@ -301,9 +301,9 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\UITKAssetEditor\Views\DropManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\NativeInputRuntime.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\SpriteUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\UITKAssetEditor\Views\CollectionViewSelectionChangeFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\UITKAssetEditor\SerializedInputBinding.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Utilities\SpriteUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\Internal\BuildProviderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem\InputSystem\Editor\Analytics\OnScreenStickEditorAnalytic.cs" />
@@ -666,6 +666,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Dropbox\My Games\CV Games\Unity - Game Creator Tutorial Linux\Game Creator 2 Tut\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

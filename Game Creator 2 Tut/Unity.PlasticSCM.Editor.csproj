@@ -173,8 +173,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\CredentialsDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Changesets\ChangesetsTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\DrawSplitter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\StatusBar\StatusBar.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetsUtils\RepaintInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\StatusBar\StatusBar.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\Tree\TreeViewItemIds.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticWindow.cs" />
@@ -333,8 +333,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\ResponseType.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\TeamEdition\TeamEditionConfigurationWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\FindEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Changesets\ChangesetsViewMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\FindEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\ConfigurePartialWorkspace.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Hub\ParseArguments.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\DownloadPlasticExeDialog.cs" />
@@ -359,8 +359,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticConnectionMonitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\UIElements\UIElementsExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetsUtils\Processor\WorkspaceOperationsMonitor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\MissingEncryptionPasswordPromptHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\History\HistoryListHeaderState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Configuration\MissingEncryptionPasswordPromptHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\CreateWorkspace\Dialogs\CreateRepositoryDialog.cs" />
     <None Include="Library\PackageCache\com.unity.collab-proxy\Editor\Assets\Styles\DownloadPlasticExeDialog.uss" />
     <None Include="Library\PackageCache\com.unity.collab-proxy\Editor\Assets\Styles\WaitingSignInPanel.uss" />

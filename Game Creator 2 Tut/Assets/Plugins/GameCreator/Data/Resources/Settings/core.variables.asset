@@ -21,5 +21,6 @@ MonoBehaviour:
       type: {class: VariablesRepository, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Variables:
-          m_NameVariables: []
+          m_NameVariables:
+          - {fileID: 11400000, guid: 42465731ecf33b5cfbabc63b5f226c35, type: 2}
           m_ListVariables: []
