@@ -47,7 +47,7 @@ public class GraphicsSettingsManager : MonoBehaviour
         textureQualityDropdown.value = QualitySettings.globalTextureMipmapLimit;
         refreshRateDropdown.value = GetCurrentRefreshRateIndex();
         shadowDistanceSlider.value = renderPipelineAsset != null ? renderPipelineAsset.shadowDistance : 0;
-        softShadowQualityDropdown.value = (int)renderPipelineAsset.shadowCascadeOption;
+        softShadowQualityDropdown.value = (int)renderPipelineAsset.shadowCascadeCount;
         shadowDistanceText.text = (renderPipelineAsset != null ? renderPipelineAsset.shadowDistance.ToString() : "0");
 
         // Set up dropdown onChange events
@@ -87,7 +87,7 @@ public class GraphicsSettingsManager : MonoBehaviour
 
     private int GetCurrentRefreshRateIndex()
     {
-        string currentRefreshRate = Screen.currentResolution.refreshRate.ToString() + "Hz";
+        string currentRefreshRate = Screen.currentResolution.refreshRateRatio.ToString() + "Hz";
         return refreshRateDropdown.options.FindIndex(option => option.text == currentRefreshRate);
     }
 
@@ -139,13 +139,13 @@ public class GraphicsSettingsManager : MonoBehaviour
             switch (optionIndex)
             {
                 case 0: 
-                    renderPipelineAsset.shadowCascadeOption = ShadowCascadesOption.NoCascades;
+                    renderPipelineAsset.shadowCascadeCount = 0;
                     break;
                 case 1: 
-                    renderPipelineAsset.shadowCascadeOption = ShadowCascadesOption.TwoCascades;
+                    renderPipelineAsset.shadowCascadeCount = 2;
                     break;
                 case 2: 
-                    renderPipelineAsset.shadowCascadeOption = ShadowCascadesOption.FourCascades;
+                    renderPipelineAsset.shadowCascadeCount = 4;
                     break;
                 default:
                     Debug.LogError("Invalid Soft Shadow option index: " + optionIndex);
@@ -288,7 +288,7 @@ public class GraphicsSettingsManager : MonoBehaviour
         if (renderPipelineAsset != null)
         {
             renderPipelineAsset.shadowDistance = 150f; 
-            renderPipelineAsset.shadowCascadeOption = ShadowCascadesOption.FourCascades; 
+            renderPipelineAsset.shadowCascadeCount = 4; 
         }
 
         resolutionDropdown.value = GetCurrentResolutionIndex();
@@ -298,7 +298,7 @@ public class GraphicsSettingsManager : MonoBehaviour
         textureQualityDropdown.value = QualitySettings.globalTextureMipmapLimit;
         shadowDistanceSlider.value = renderPipelineAsset != null ? renderPipelineAsset.shadowDistance : 0;
         shadowDistanceText.text = (renderPipelineAsset != null ? renderPipelineAsset.shadowDistance.ToString() : "0");
-        softShadowQualityDropdown.value = (int)renderPipelineAsset.shadowCascadeOption;
+        softShadowQualityDropdown.value = (int)renderPipelineAsset.shadowCascadeCount;
 
         PlayerPrefs.SetInt("ResolutionWidth", 1920);
         PlayerPrefs.SetInt("ResolutionHeight", 1080);

@@ -58,21 +58,7 @@ namespace UnityEngine.Rendering.Universal
         /// </summary>
         FourCascades,
     }
-    public enum ShadowCascadeCount
-    {
-        /// <summary>
-        /// No cascades used for the shadows
-        /// </summary>
-        NoCascades,
-        /// <summary>
-        /// Two cascades used for the shadows
-        /// </summary>
-        TwoCascades,
-        /// <summary>
-        /// Four cascades used for the shadows
-        /// </summary>
-        FourCascades,
-    }
+
     /// <summary>
     /// Specifies the logging level for shader variants.
     /// This is obsolete, UnityEngine.Rendering.ShaderVariantLogLevel instead.

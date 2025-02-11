@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dropbox\\My Games\\CV Games\\Unity - Game Creator Tutorial Linux\\Game Creator 2 Tut\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7748F6F6-C144-53A1-897E-44FAB81F5513}|Assembly-CSharp.csproj|d:\\dropbox\\my games\\cv games\\unity - game creator tutorial linux\\game creator 2 tut\\assets\\01scenes\\01main\\graphicssettingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7748F6F6-C144-53A1-897E-44FAB81F5513}|Assembly-CSharp.csproj|solutionrelative:assets\\01scenes\\01main\\graphicssettingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraphicsSettingsManager.cs",
+              "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - Game Creator Tutorial Linux\\Game Creator 2 Tut\\Assets\\01Scenes\\01Main\\GraphicsSettingsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01Scenes\\01Main\\GraphicsSettingsManager.cs",
+              "ToolTip": "D:\\Dropbox\\My Games\\CV Games\\Unity - Game Creator Tutorial Linux\\Game Creator 2 Tut\\Assets\\01Scenes\\01Main\\GraphicsSettingsManager.cs",
+              "RelativeToolTip": "Assets\\01Scenes\\01Main\\GraphicsSettingsManager.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAYwBsBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T03:26:01.249Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
