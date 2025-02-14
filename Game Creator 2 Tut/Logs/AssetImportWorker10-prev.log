@@ -25,7 +25,7 @@ AssetImportWorker10
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-40687
+40947
 -job-worker-count
 13
 -background-job-worker-count
@@ -34,9 +34,9 @@ Logs/AssetImportWorker10.log
 1
 Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 
-(Unity:11943): Gtk-CRITICAL **: 07:00:38.463: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:8461): Gtk-CRITICAL **: 06:18:54.366: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:11943): Gtk-CRITICAL **: 07:00:38.479: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:8461): Gtk-CRITICAL **: 06:18:54.376: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -73,12 +73,12 @@ Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [131075150402880]  Target information:
+Player connection [131797825946944]  Target information:
 
-Player connection [131075150402880]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 2353242710 [EditorId] 2353242710 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [131797825946944]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 3109517095 [EditorId] 3109517095 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [131075150402880] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [131075150402880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [131797825946944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [131797825946944] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -112,51 +112,49 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
 titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KH
 R_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1335439080
-database is locked
-database is locked
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -635443912
 Initialize mono
 Mono path[0] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56943
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56461
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001610 seconds.
-- Loaded All Assemblies, in  0,205 seconds
+Registered in 0,001312 seconds.
+- Loaded All Assemblies, in  0,185 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,289 seconds
-Domain Reload Profiling: 494ms
-	BeginReloadAssembly (50ms)
+- Finished resetting the current domain, in  0,336 seconds
+Domain Reload Profiling: 520ms
+	BeginReloadAssembly (44ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (96ms)
-		LoadAssemblies (49ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (44ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (93ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (290ms)
+	FinalizeReload (336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (250ms)
+		SetupLoadedEditorAssemblies (283ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
+			InitializePlatformSupportModulesInManaged (76ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (143ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (158ms)
 			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -165,92 +163,188 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0,639 seconds
+- Loaded All Assemblies, in  0,620 seconds
 Refreshing native plugins compatible for Editor in 0,82 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,86 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,839 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  1,023 seconds
+Domain Reload Profiling: 1642ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (30ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (208ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (218ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (128ms)
-			BuildScriptInfoCaches (65ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (63ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (839ms)
+	FinalizeReload (1023ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (667ms)
+		SetupLoadedEditorAssemblies (827ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (248ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (427ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 AutoLocale: current locale expects 'C' but got 'ro_RO.UTF-8'
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10437 unused Assets / (6.9 MB). Loaded Objects now: 11283.
-Memory consumption went from 225.5 MB to 218.6 MB.
-Total: 12.580727 ms (FindLiveObjects: 0.706258 ms CreateObjectMapping: 0.719431 ms MarkObjects: 7.517118 ms  DeleteObjects: 3.637294 ms)
+Unloading 10437 unused Assets / (6.8 MB). Loaded Objects now: 11285.
+Memory consumption went from 305.6 MB to 298.7 MB.
+Total: 13.476032 ms (FindLiveObjects: 0.822170 ms CreateObjectMapping: 0.951309 ms MarkObjects: 7.751960 ms  DeleteObjects: 3.949783 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2745.703796 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Melee.Sword@1.1.3/Meshes/Sword_Handle.mat
-  artifactKey: Guid(9937b6881781e44a4ba6293b87f309c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Melee.Sword@1.1.3/Meshes/Sword_Handle.mat using Guid(9937b6881781e44a4ba6293b87f309c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '265c78cfd6edef1410173f6d6d52ccdd') in 0.32283531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 2470.379345 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_35.prefab
+  artifactKey: Guid(2294f22d00a6b3840b6051548fe29ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_35.prefab using Guid(2294f22d00a6b3840b6051548fe29ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67afa07cc86c30e96e9cae42675d08d7') in 0.381025937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Melee.SwordFPS@1.1.2/Materials/SwordFPS@FX_Trail.mat
-  artifactKey: Guid(1c81a09b206b04509b425b3cf4abb7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Melee.SwordFPS@1.1.2/Materials/SwordFPS@FX_Trail.mat using Guid(1c81a09b206b04509b425b3cf4abb7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046c00b5141e9368cbd47744641589e3') in 0.00883335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_25.prefab
+  artifactKey: Guid(75d8ba510369db647abf64b18ca34490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_25.prefab using Guid(75d8ba510369db647abf64b18ca34490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9704a948d19ac529678bc9659afdaa6') in 0.094823608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.975595 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_C.mat
-  artifactKey: Guid(528009ceac1a3f84391a194bdb989786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_C.mat using Guid(528009ceac1a3f84391a194bdb989786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ffeb5d43758cfff429d4ac090b1bb48') in 0.012390467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_39.prefab
+  artifactKey: Guid(770699acb01423744ae4e6d2bbaf2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_39.prefab using Guid(770699acb01423744ae4e6d2bbaf2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d2d410312561a3e1a6c0545c24aa2a7') in 0.098646628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Stats.Examples@1.6.12/Assets/Models/Sword/Sword_Handle.mat
-  artifactKey: Guid(343c18c44dd3f43b892f2d7a12f2dba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Stats.Examples@1.6.12/Assets/Models/Sword/Sword_Handle.mat using Guid(343c18c44dd3f43b892f2d7a12f2dba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae8bb6f113ce23dade7a3a09cf59e148') in 0.008581139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_105.prefab
+  artifactKey: Guid(aadd7871d08c5464bb9a6e617c43ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_105.prefab using Guid(aadd7871d08c5464bb9a6e617c43ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3301dab404f8b40be1f79d79779578') in 0.09104481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_72.prefab
+  artifactKey: Guid(4eff100d100b40e42b02fdca703f754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_72.prefab using Guid(4eff100d100b40e42b02fdca703f754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5685eb3b301f9be84bdb29cce54232d6') in 0.07414547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmUpperLeft_Female_11_Static.prefab
+  artifactKey: Guid(82057253859bfe745847ae238462b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmUpperLeft_Female_11_Static.prefab using Guid(82057253859bfe745847ae238462b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9f66d3302ce10d48b986890ee620c8b') in 0.043681789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Potion_Mana/Potion_Crystal.mat
-  artifactKey: Guid(46dc200d22f004de38aab3feafe5d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Potion_Mana/Potion_Crystal.mat using Guid(46dc200d22f004de38aab3feafe5d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91ea98652050bf6268ebe9ab8dbc6cdf') in 0.609168678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_88.prefab
+  artifactKey: Guid(c7354fe17d507ed47a8daf26f593665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_88.prefab using Guid(c7354fe17d507ed47a8daf26f593665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c73913adf174588d4c16ae48e965dd27') in 0.122460307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Male_18_Static.prefab
+  artifactKey: Guid(d21d98aaa108da74694759eeb674aa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Male_18_Static.prefab using Guid(d21d98aaa108da74694759eeb674aa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2c60ee940ec2219c021fee7918be781') in 0.05464568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Male_08_Static.prefab
+  artifactKey: Guid(6714ef091e7c57c4a94a09c3f760f603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Male_08_Static.prefab using Guid(6714ef091e7c57c4a94a09c3f760f603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631eafcb772e15b2ec734bbbb719b188') in 0.060150563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Male_11_Static.prefab
+  artifactKey: Guid(64da71a36ef74ca42b1b80aae0bc8904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Male_11_Static.prefab using Guid(64da71a36ef74ca42b1b80aae0bc8904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc2ccb441e5f3a5d1aefe694d6618976') in 0.030232482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_34.prefab
+  artifactKey: Guid(f8d073d0f71331843af650fef6755319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_34.prefab using Guid(f8d073d0f71331843af650fef6755319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56a2110c5e213d4864c5e8857e848d85') in 0.109112005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_5.prefab
+  artifactKey: Guid(68813e3f18422044094750f43ff6381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_5.prefab using Guid(68813e3f18422044094750f43ff6381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ab71d3b669155702768c3b7f5bb4a7') in 0.061722904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_66.prefab
+  artifactKey: Guid(a357a9e0bde8daf41bd41af20fda170c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_66.prefab using Guid(a357a9e0bde8daf41bd41af20fda170c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4d04981a9f44b252a16855d0d6e012') in 0.102993005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_21.prefab
+  artifactKey: Guid(fdb7429b76ccf5f4782fe32c5ef234ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_21.prefab using Guid(fdb7429b76ccf5f4782fe32c5ef234ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20fc215fa282d3712e4917c6c505a3c7') in 0.090425741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Female_03_Static.prefab
+  artifactKey: Guid(9115e81122a340a4e8d5f2746306c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Female_03_Static.prefab using Guid(9115e81122a340a4e8d5f2746306c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cb888e2fd9ce3c6f6adcec04b38fb54') in 0.022505038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Female_10_Static.prefab
+  artifactKey: Guid(646b42c9e1a1dd24a9ffc1c5635ff35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Female_10_Static.prefab using Guid(646b42c9e1a1dd24a9ffc1c5635ff35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff818de1bf451ffcda157f9cead164e9') in 0.009885246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_81.prefab
+  artifactKey: Guid(0470f00ff58b1e946bc6217b3873ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_81.prefab using Guid(0470f00ff58b1e946bc6217b3873ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb518c8f0b022ce74c28aac9d39fed1') in 0.078603131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3130
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

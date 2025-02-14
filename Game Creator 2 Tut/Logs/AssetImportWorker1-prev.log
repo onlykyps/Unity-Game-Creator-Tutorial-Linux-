@@ -25,7 +25,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-40687
+40947
 -job-worker-count
 13
 -background-job-worker-count
@@ -34,9 +34,9 @@ Logs/AssetImportWorker1.log
 1
 Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 
-(Unity:10799): Gtk-CRITICAL **: 06:42:07.967: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:4227): Gtk-CRITICAL **: 05:40:58.771: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:10799): Gtk-CRITICAL **: 06:42:07.983: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:4227): Gtk-CRITICAL **: 05:40:58.771: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -73,12 +73,12 @@ Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [129983834342720]  Target information:
+Player connection [140336688469312]  Target information:
 
-Player connection [129983834342720]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 2734423907 [EditorId] 2734423907 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140336688469312]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 4039391350 [EditorId] 4039391350 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [129983834342720] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [129983834342720] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140336688469312] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140336688469312] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -112,49 +112,49 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
 titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KH
 R_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 177174824
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -353085704
 Initialize mono
 Mono path[0] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56799
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56227
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001348 seconds.
-- Loaded All Assemblies, in  0,183 seconds
+Registered in 0,001345 seconds.
+- Loaded All Assemblies, in  0,186 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,245 seconds
-Domain Reload Profiling: 428ms
-	BeginReloadAssembly (44ms)
+- Finished resetting the current domain, in  0,250 seconds
+Domain Reload Profiling: 436ms
+	BeginReloadAssembly (46ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (5ms)
 	initialDomainReloadingComplete (30ms)
 	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (43ms)
+		LoadAssemblies (45ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (75ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+	FinalizeReload (250ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (209ms)
+		SetupLoadedEditorAssemblies (215ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
+			InitializePlatformSupportModulesInManaged (54ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -163,40 +163,40 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0,595 seconds
-Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+- Loaded All Assemblies, in  0,639 seconds
+Refreshing native plugins compatible for Editor in 1,16 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,89 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,735 seconds
-Domain Reload Profiling: 1328ms
+- Finished resetting the current domain, in  0,966 seconds
+Domain Reload Profiling: 1604ms
 	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (197ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (124ms)
-			BuildScriptInfoCaches (61ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (735ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (966ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (777ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (226ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -205,354 +205,218 @@ AutoLocale: current locale expects 'C' but got 'ro_RO.UTF-8'
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10437 unused Assets / (5.9 MB). Loaded Objects now: 11281.
-Memory consumption went from 216.9 MB to 211.0 MB.
-Total: 12.089980 ms (FindLiveObjects: 0.591183 ms CreateObjectMapping: 0.706089 ms MarkObjects: 7.388133 ms  DeleteObjects: 3.403859 ms)
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10437 unused Assets / (6.4 MB). Loaded Objects now: 11285.
+Memory consumption went from 292.3 MB to 285.8 MB.
+Total: 12.525472 ms (FindLiveObjects: 0.585912 ms CreateObjectMapping: 0.740486 ms MarkObjects: 7.460153 ms  DeleteObjects: 3.738177 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2601.975843 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Armor/Armor_Base.mat
-  artifactKey: Guid(926db195317664eebb2eda4091d5da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Armor/Armor_Base.mat using Guid(926db195317664eebb2eda4091d5da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56567d82de2b6b29e14b3265e4b3e94a') in 0.269403489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_B.mat
-  artifactKey: Guid(6e0f2294758c84f42bf33a00700a4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_B.mat using Guid(6e0f2294758c84f42bf33a00700a4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78df13f85050cf9fb7a45d3dcef3e812') in 0.115203196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_04_B.mat
-  artifactKey: Guid(940ecf1f021e2cb4c91b55e2d8f82a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_04_B.mat using Guid(940ecf1f021e2cb4c91b55e2d8f82a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '105c2505ab67f89ea9ec38215a92a4a1') in 0.605753463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_01_A_Shiny.mat
-  artifactKey: Guid(57607dbd191b4da4283cc5af8b598aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_01_A_Shiny.mat using Guid(57607dbd191b4da4283cc5af8b598aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '950fca872a59d4c3513c905acb5bf73d') in 0.083534137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 194.591965 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Female_12_Static.prefab
+  artifactKey: Guid(94cfff91c774e8d43a88e9874b4d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerRight_Female_12_Static.prefab using Guid(94cfff91c774e8d43a88e9874b4d0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c0a634c240c042d37156dcad050e86') in 0.325038602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Guide_Blue.mat
-  artifactKey: Guid(0bb63c2fff95b43b188bcece36651df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Guide_Blue.mat using Guid(0bb63c2fff95b43b188bcece36651df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20dd9f955541fce059a2dc03eea96903') in 0.037073722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Female_04_Static.prefab
+  artifactKey: Guid(7c7fe622be5194144af95ddf9d4888f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_ModularParts_Static/Chr_ArmLowerLeft_Female_04_Static.prefab using Guid(7c7fe622be5194144af95ddf9d4888f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4048aca01155946ce012adce86dbd7e3') in 0.01071851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Currency/Gold.mat
-  artifactKey: Guid(61013304ca46e4acdb3fb6098cb03876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Currency/Gold.mat using Guid(61013304ca46e4acdb3fb6098cb03876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '880286405990a2227af0592c6f22b1c1') in 0.004813196 seconds
+  Time since last request: 992.724082 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat
+  artifactKey: Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat using Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f2764f82e586f01dfd1e73d4fe8da54') in 0.014656343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015203 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/FX_Materials/Fire.mat
+  artifactKey: Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/FX_Materials/Fire.mat using Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7977900056f782a69d1a5a6ad805681') in 0.003642752 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_18.mat
-  artifactKey: Guid(6e7be4115ec28b74b81e603f7bc7be4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_18.mat using Guid(6e7be4115ec28b74b81e603f7bc7be4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d1dbae3b4094efe4b30c9cdbc341e6') in 0.202859037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  path: Assets/PolygonFantasyKingdom/Models/FX_Sphere.fbx
+  artifactKey: Guid(cd7b5e540c1d2734699278278b7a56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Models/FX_Sphere.fbx using Guid(cd7b5e540c1d2734699278278b7a56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49088675edb696faf53623d2e9711e70') in 0.020914179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_08.mat
-  artifactKey: Guid(3d8cf3a3ee92c054586ba27a00a8f0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_08.mat using Guid(3d8cf3a3ee92c054586ba27a00a8f0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e282186e2f6354ea8040a05a30b7f7') in 0.007202871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.004278 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_01_A_Emmisive.mat
+  artifactKey: Guid(79032ccc95380fa49951487918fe4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_01_A_Emmisive.mat using Guid(79032ccc95380fa49951487918fe4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28aab2906c2d37963b3186a0504ec622') in 0.048182375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Materials/DummyCharacters/BasicMotions_DummyFemale.mat
-  artifactKey: Guid(d49e8cb9075168e4aaa232d90b4e092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Kevin Iglesias/Basic Motions/DemoScene/Materials/DummyCharacters/BasicMotions_DummyFemale.mat using Guid(d49e8cb9075168e4aaa232d90b4e092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5304a3177283986877d5c88697bd4e70') in 0.115914403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.027123 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_03_B.mat
+  artifactKey: Guid(20e258dfeee82c249a858f51e004546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_03_B.mat using Guid(20e258dfeee82c249a858f51e004546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737193faf932f28e2879bc3d2b27316a') in 0.025826129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_14.mat
-  artifactKey: Guid(a1cc9f2654c87cf4ab0eb7911bb283b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_14.mat using Guid(a1cc9f2654c87cf4ab0eb7911bb283b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f15067f8c41e5091da8a0341c387f132') in 0.010234912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Models/Characters/Materials/lambert1.mat
-  artifactKey: Guid(3ea972b2807037b46b8f3671768ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Models/Characters/Materials/lambert1.mat using Guid(3ea972b2807037b46b8f3671768ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cf4e201f89102e63d28e8b1e7d4be5e') in 0.004691507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Animations/TransformAnimation SxB_V2/Model/Material/Mat_UnityModelEye.mat
-  artifactKey: Guid(1455e38df8d6065468f3a20aa423a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/TransformAnimation SxB_V2/Model/Material/Mat_UnityModelEye.mat using Guid(1455e38df8d6065468f3a20aa423a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ae9d25069a1554a216dab821a9d3bbe') in 0.021341915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.013053 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_02_B.mat
+  artifactKey: Guid(7a55ee699ad0a2f42af5eb327296d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_02_B.mat using Guid(7a55ee699ad0a2f42af5eb327296d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a267ad71f601cb499c69c035298aef2b') in 0.020575867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_A.mat
-  artifactKey: Guid(014fbaa82701c3f4bbd9c27c7a0650e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_A.mat using Guid(014fbaa82701c3f4bbd9c27c7a0650e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1790a64f85ccf3d98603786d9a9f2b0') in 0.005864053 seconds
+  path: Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Paintings.mat
+  artifactKey: Guid(f1ab90401dc7fa2418d92c4ee845cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Paintings.mat using Guid(f1ab90401dc7fa2418d92c4ee845cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b7fa4b40dbe7aa846f89af9f431f601') in 0.006019884 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Glass_Cross.mat
+  artifactKey: Guid(fb5b0c970d615394e8f5bd40fe66285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Glass_Cross.mat using Guid(fb5b0c970d615394e8f5bd40fe66285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1be46927418f2ea8cca948dce3b6025e') in 0.046820027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_03_C.mat
+  artifactKey: Guid(a2897c3aeeb53764a92e472c8e73d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_03_C.mat using Guid(a2897c3aeeb53764a92e472c8e73d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d580ebecce49085d86ff4f69889af5') in 0.019347758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_04_B.mat
+  artifactKey: Guid(231cbfd0f2c87174abf4779f7ee85aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_04_B.mat using Guid(231cbfd0f2c87174abf4779f7ee85aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fc9a5f2b9468968c80e31cb8de66e56') in 0.018499243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_Castle_Roof.mat
+  artifactKey: Guid(70815e03a38e78d4fad14d2d02847ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_Castle_Roof.mat using Guid(70815e03a38e78d4fad14d2d02847ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf9fd933b9ab0d8426ec39b9824d689') in 0.043475102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Mud_02.mat
+  artifactKey: Guid(b534cefea3af45d4faa9f3387e945ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Mud_02.mat using Guid(b534cefea3af45d4faa9f3387e945ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd174bb2b06afcaef0064450b7eabd3c2') in 0.008466081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_Castle_Wall_03.mat
+  artifactKey: Guid(1a64941ef3e92344390ca89589cf3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_Castle_Wall_03.mat using Guid(1a64941ef3e92344390ca89589cf3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e3f5753eacd4fc6db7354e9b3ad5d6d') in 0.010750648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Grass_03.mat
+  artifactKey: Guid(a957f9d897c68df408c57a657d783fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Grass_03.mat using Guid(a957f9d897c68df408c57a657d783fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c798c339e2e861a16e74f838a5d1056f') in 0.054414737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_01_A.mat
+  artifactKey: Guid(71e41e43b459a244abaf5acca76b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/PolygonFantasyKingdom_Mat_01_A.mat using Guid(71e41e43b459a244abaf5acca76b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fde0d655980d1ea06ae8c9b39b2d0cb') in 0.069528058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/FixedScale/Models/ModularCharacters.fbx
-  artifactKey: Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/FixedScale/Models/ModularCharacters.fbx using Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d2d888e0e49b8648f7b2ada9b35cf61') in 3.835726576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3120
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Ingredient_Metal_Ingot/Metal_Ingot.mat
-  artifactKey: Guid(718f76e0e7f4c400487846cc88de4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Ingredient_Metal_Ingot/Metal_Ingot.mat using Guid(718f76e0e7f4c400487846cc88de4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eefaf41ae5b15976d7b0e4924c0376d8') in 0.005170246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_10.mat
-  artifactKey: Guid(bb0e5c246b5b2df4bb4d15c8ea7ff485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_10.mat using Guid(bb0e5c246b5b2df4bb4d15c8ea7ff485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac61fad0b2151b0c847dd2728b7764c') in 0.012568993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_B.mat
-  artifactKey: Guid(3bcf3b7f226350641bd7cdb11d0f7a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_B.mat using Guid(3bcf3b7f226350641bd7cdb11d0f7a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf5749b30217822eecc58b1e63b9603') in 0.023523463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Models/Characters/Materials/Default_Material.mat
-  artifactKey: Guid(31cbef0dd561a0d42830922833a94b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Models/Characters/Materials/Default_Material.mat using Guid(31cbef0dd561a0d42830922833a94b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1c92f7a405d4c50594e40d1d62e00b3') in 0.008476872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_C.mat
-  artifactKey: Guid(0d6492626a0d388439f85a813cbd83f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_C.mat using Guid(0d6492626a0d388439f85a813cbd83f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a76399f00cab73e601171d8e1a660d1d') in 0.010562538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Potion_Health/Potion_Cap.mat
-  artifactKey: Guid(9c65d6e9506534a4cba4ff46f8fb23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Potion_Health/Potion_Cap.mat using Guid(9c65d6e9506534a4cba4ff46f8fb23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b780455f0b28fb72cf4f299fdc288a6a') in 0.005640675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Armor/Armor_Fabric.mat
-  artifactKey: Guid(4aaff958953944957918da0458b6629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Armor/Armor_Fabric.mat using Guid(4aaff958953944957918da0458b6629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b78f2800ca39fead7f6599e0b502e7') in 0.00542647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Animations/TransformAnimation SxB_V2/Model/Material/Background.mat
-  artifactKey: Guid(5d5cd6585e1ae144ba6206a4ec4815ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/TransformAnimation SxB_V2/Model/Material/Background.mat using Guid(5d5cd6585e1ae144ba6206a4ec4815ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb52cb753090111e72487bae7a1f9cd8') in 0.038013166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_02.mat
-  artifactKey: Guid(068b891fe967b1c45850c97d1092abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_02.mat using Guid(068b891fe967b1c45850c97d1092abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e95b9d5c92fcc52e2c26b2799a94c16c') in 0.011086274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df2f1abdb280dcd8316b4ff95a463bde') in 0.083283037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FarmerSurvivor.mat
-  artifactKey: Guid(f8672fff81932364d94b22fbcd3933f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FarmerSurvivor.mat using Guid(f8672fff81932364d94b22fbcd3933f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed87909cfa35ce091f344c23c0b47c3f') in 0.028286719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_InjuredSurvivor.mat
-  artifactKey: Guid(1e309550b4cf2bb44bf90b600ffb9723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_InjuredSurvivor.mat using Guid(1e309550b4cf2bb44bf90b600ffb9723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8468e08b8a9986ff4ad95db628f28c75') in 0.009640815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FemaleHero.mat
-  artifactKey: Guid(b78b82e7e9aa4ce438403d803a345a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FemaleHero.mat using Guid(b78b82e7e9aa4ce438403d803a345a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66e522c10b37f6cfe35b3f091a41d12b') in 0.028475243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_BusinessSurvivor.mat
-  artifactKey: Guid(c9ac1eb5c4a6ae8469c12da438812424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_BusinessSurvivor.mat using Guid(c9ac1eb5c4a6ae8469c12da438812424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82add2f77b1f96f5897ae3696bc8804') in 0.028285605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_MaleTrenchcoat.mat
-  artifactKey: Guid(565a36848934faa4db08756381f0ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_MaleTrenchcoat.mat using Guid(565a36848934faa4db08756381f0ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '704453da14f4a44ccea966842847a2f8') in 0.031420232 seconds
+  path: Assets/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_04.mat
+  artifactKey: Guid(71f79b99270ddff4ba1d0f78da459746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_04.mat using Guid(71f79b99270ddff4ba1d0f78da459746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a06a1bc232a5e1be167776e40daebee8') in 0.071058051 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Bodies/SA_BurntBody_02.mat
-  artifactKey: Guid(4ae36011846601841a5c659d97e674af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Bodies/SA_BurntBody_02.mat using Guid(4ae36011846601841a5c659d97e674af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef28de45577bc6ab3be2f5f5d3beb42c') in 0.028359699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FemaleSoldier.mat
-  artifactKey: Guid(4ef445f123c0c284caa5fba6d1ee00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_FemaleSoldier.mat using Guid(4ef445f123c0c284caa5fba6d1ee00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ba8b5f3131e45816b14d9a40df79c13') in 0.019869365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Guide_Green.mat
-  artifactKey: Guid(9b5689b915d724c8bb917364cf3b2c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Guide_Green.mat using Guid(9b5689b915d724c8bb917364cf3b2c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e490fb410c58ea07bcf1d134c90a5f5a') in 0.015256296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Rune_Attack/Rune_Attack.mat
-  artifactKey: Guid(1a3fc6d32e4874ce597ebcdcd97ebc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Rune_Attack/Rune_Attack.mat using Guid(1a3fc6d32e4874ce597ebcdcd97ebc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db31d86c124725c52f3f55cfa413a69a') in 0.028655236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Bodies/SA_BurntBody_01.mat
-  artifactKey: Guid(43c8a575626d4454eb5748876aadd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Bodies/SA_BurntBody_01.mat using Guid(43c8a575626d4454eb5748876aadd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c6ea44a918f96266baaf2ef7fa4271') in 0.031641984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Color_Black.mat
-  artifactKey: Guid(71217bc368a7245939f58b5e1dc51124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/Materials/Prototype_Color_Black.mat using Guid(71217bc368a7245939f58b5e1dc51124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48345da691dcd264d78907a87905fe69') in 0.006559663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Animations/TransformAnimation SxB_V2/Scene/Material/Mat_Floor.mat
-  artifactKey: Guid(da3aa9ef67f0ccc4d975606b31ea94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/TransformAnimation SxB_V2/Scene/Material/Mat_Floor.mat using Guid(da3aa9ef67f0ccc4d975606b31ea94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd599741d1f196443e9672287a0388552') in 0.042093371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_17.mat
-  artifactKey: Guid(4920096310a9a21409f67c3f76f73903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_17.mat using Guid(4920096310a9a21409f67c3f76f73903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486523fbf49cdb502869af58df720b84') in 0.014239481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Animations/DoubleL/Model/Floor.mat
-  artifactKey: Guid(b3ae8fdcd3858f54f95eeb04bdc36021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/DoubleL/Model/Floor.mat using Guid(b3ae8fdcd3858f54f95eeb04bdc36021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dd1d0179b520e5f6e3ac6dfbbeb76e2') in 0.025980891 seconds
+  path: Assets/PolygonFantasyKingdom/Materials/Flags/PolygonFantasyKingdom_Mat_Flag_Symbol_02.mat
+  artifactKey: Guid(67f776ee71f41444aae28165f955b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Flags/PolygonFantasyKingdom_Mat_Flag_Symbol_02.mat using Guid(67f776ee71f41444aae28165f955b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0185d08fdc02960a8b3cc7ccc3840b07') in 0.032220992 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_02_A.mat
-  artifactKey: Guid(bd0bc8c231660a549be135327b1cc186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Materials/PolygonHeist_Material_02_A.mat using Guid(bd0bc8c231660a549be135327b1cc186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aed97d56698b2582e1981bb9afe2682f') in 1.074061466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_Hazard.mat
-  artifactKey: Guid(43fbf0c3a85be124186e14b33f658522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonSimpleApocalypse/Materials/Characters/SA_Character_Hazard.mat using Guid(43fbf0c3a85be124186e14b33f658522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dff31d7da4899529be65e0f5b4c4ce49') in 0.108314929 seconds
+  path: Assets/PolygonFantasyKingdom/Materials/Flags/PolygonFantasyKingdom_Mat_Flag_Symbol_04.mat
+  artifactKey: Guid(8891d9b864151f74e9defc8607ceab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Flags/PolygonFantasyKingdom_Mat_Flag_Symbol_04.mat using Guid(8891d9b864151f74e9defc8607ceab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ddfdf19ec87dca37c5dfc550c01f14') in 0.004041178 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Ingredient_Herb_Red/Ingredient_Red.mat
-  artifactKey: Guid(08b0d06b7ff9240bba29df238adb1bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/Inventory.Items@1.2.12/_Meshes/Ingredient_Herb_Red/Ingredient_Red.mat using Guid(08b0d06b7ff9240bba29df238adb1bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61d963a3f689e83abe0076ba34260f2d') in 0.021011669 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Dark.mat
+  artifactKey: Guid(b47ab4133b68590488652122e6635c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Dark.mat using Guid(b47ab4133b68590488652122e6635c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f019ad6667ab2bc62a09d6e2e776416') in 0.019748943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water.mat
+  artifactKey: Guid(510d330a319efdb48af520acf5a701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water.mat using Guid(510d330a319efdb48af520acf5a701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aa559b8d7f15e2368e67b523e977d7e') in 0.003984648 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/UI/_Fonts/JosefinSans-Bold.ttf
-  artifactKey: Guid(2760c319ceaa84ce1b30ddd4a0edbf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.6.12/UI/_Fonts/JosefinSans-Bold.ttf using Guid(2760c319ceaa84ce1b30ddd4a0edbf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '205a71a89e33657ab19a970b7637a0d7') in 0.12413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_04_C.mat
+  artifactKey: Guid(22f7ac8ce7d70874e870a03256ce0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_04_C.mat using Guid(22f7ac8ce7d70874e870a03256ce0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1acd323e47b35460c9e130d1cf154649') in 0.018885433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_20.mat
-  artifactKey: Guid(bb9755ee2f0ec374ab570a162036345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_20.mat using Guid(bb9755ee2f0ec374ab570a162036345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbdd4936d92b1c69c49d9ade62724b40') in 0.037429903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Grass_01.mat
+  artifactKey: Guid(feaf4d7c3ab17d641a8f3678c721dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Grass_01.mat using Guid(feaf4d7c3ab17d641a8f3678c721dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b254f69401df4d3bdd9c7ffc987ddb3') in 0.006942828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_Castle_Wall_04.mat
+  artifactKey: Guid(cab72a09578ff334c9b840f7c09e1000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/Alts/PolygonFantasyKingdom_Mat_Castle_Wall_04.mat using Guid(cab72a09578ff334c9b840f7c09e1000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2325762e445c2bb9a7a95922a8f9c4d') in 0.00625671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonFantasyKingdom/Materials/FX_Materials/FX_Default.mat
+  artifactKey: Guid(b1075de212579424c8c2abcc63b2c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Materials/FX_Materials/FX_Default.mat using Guid(b1075de212579424c8c2abcc63b2c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '393e28ef61b8b2978be1e3bc86bbb800') in 0.019075505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
