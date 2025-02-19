@@ -83,6 +83,21 @@ MonoBehaviour:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value: 0
+    - rid: 78474777623265447
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 78474777623265448
+        m_Name:
+          m_String: Index-beard
+    - rid: 78474777623265448
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
     - rid: 4211052890356449280
       type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
@@ -92,6 +107,7 @@ MonoBehaviour:
         - rid: 78474754989752544
         - rid: 78474754989752546
         - rid: 78474754989752548
+        - rid: 78474777623265447
     - rid: 4211052890356449281
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
