@@ -651,6 +651,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
+      <Project>{87b36056-1fe1-9ad7-965d-45b6c1045d7f}</Project>
+      <Name>Assembly-CSharp-firstpass.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.Player.csproj">
       <Project>{3a80e8b7-b967-3737-6566-247a7e20d1ed}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>

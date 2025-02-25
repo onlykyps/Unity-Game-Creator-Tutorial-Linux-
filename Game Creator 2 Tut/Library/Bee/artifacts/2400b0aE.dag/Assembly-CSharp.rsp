@@ -370,6 +370,7 @@
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/GameCreator.Editor.Core.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/GameCreator.Editor.Inventory.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/GameCreator.Editor.Melee.ref.dll"

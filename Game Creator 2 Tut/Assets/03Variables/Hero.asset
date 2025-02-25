@@ -98,11 +98,27 @@ MonoBehaviour:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value: 1
+    - rid: 78474913113702600
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 78474913113702601
+        m_Name:
+          m_String: Choice
+    - rid: 78474913113702601
+      type: {class: ValueString, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: Female
     - rid: 4211052890356449280
       type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Source:
         - rid: 4211052890356449281
+        - rid: 78474913113702600
         - rid: 78474754989752541
         - rid: 78474754989752544
         - rid: 78474754989752546
