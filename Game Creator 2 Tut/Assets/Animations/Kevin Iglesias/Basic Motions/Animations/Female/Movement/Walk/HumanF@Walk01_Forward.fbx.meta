@@ -2,6 +2,13 @@ fileFormatVersion: 2
 guid: d18c13a5b4b923244a524a76a303e61d
 labels:
 - Animation
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.3.2
+  assetPath: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+  uploadId: 726948
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -18,11 +25,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'B-thigh.L'
-      : position error = 8.447865 mm\n\t'B-toe.L' : position error = 10.774785 mm\n\t'B-thigh.R'
-      : position error = 8.447412 mm\n\t'B-toe.R' : position error = 10.773812 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -51,9 +53,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 1
+      loopBlendOrientation: 0
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -840,8 +842,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 56ca56168a6cb9b45924e7b4cb4c9cb4,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 56ca56168a6cb9b45924e7b4cb4c9cb4, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
@@ -853,10 +854,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 154271
-  packageName: Basic Motions FREE
-  packageVersion: 2.3.2
-  assetPath: Assets/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
-  uploadId: 726948

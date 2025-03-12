@@ -25,7 +25,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-38155
+46671
 -job-worker-count
 13
 -background-job-worker-count
@@ -34,9 +34,9 @@ Logs/AssetImportWorker0.log
 1
 Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 
-(Unity:10612): Gtk-CRITICAL **: 06:23:49.030: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:6500): Gtk-CRITICAL **: 20:32:18.426: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:10612): Gtk-CRITICAL **: 06:23:49.031: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:6500): Gtk-CRITICAL **: 20:32:18.426: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -73,12 +73,12 @@ Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [126697313199424]  Target information:
+Player connection [139991222646080]  Target information:
 
-Player connection [126697313199424]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 4124154444 [EditorId] 4124154444 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139991222646080]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 3542742867 [EditorId] 3542742867 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126697313199424] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [126697313199424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139991222646080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139991222646080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -112,48 +112,48 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
 titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KH
 R_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -986713048
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1961428840
 Initialize mono
 Mono path[0] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001334 seconds.
-- Loaded All Assemblies, in  0,177 seconds
+Registered in 0,001301 seconds.
+- Loaded All Assemblies, in  0,180 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,240 seconds
-Domain Reload Profiling: 416ms
+- Finished resetting the current domain, in  0,243 seconds
+Domain Reload Profiling: 422ms
 	BeginReloadAssembly (42ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (4ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (81ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
 		LoadAssemblies (42ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (79ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (71ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (240ms)
+	FinalizeReload (243ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (205ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,742 +163,506 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0,581 seconds
+- Loaded All Assemblies, in  0,562 seconds
 Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,80 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,870 seconds
-Domain Reload Profiling: 1450ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0,776 seconds
+Domain Reload Profiling: 1337ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (4ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (350ms)
-		LoadAssemblies (187ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (115ms)
-			BuildScriptInfoCaches (59ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (116ms)
+			BuildScriptInfoCaches (58ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (870ms)
+	FinalizeReload (776ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (717ms)
+		SetupLoadedEditorAssemblies (632ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (293ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 AutoLocale: current locale expects 'C' but got 'ro_RO.UTF-8'
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 221 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10450 unused Assets / (5.1 MB). Loaded Objects now: 11299.
-Memory consumption went from 302.3 MB to 297.2 MB.
-Total: 12.209000 ms (FindLiveObjects: 0.616302 ms CreateObjectMapping: 0.849518 ms MarkObjects: 7.179354 ms  DeleteObjects: 3.562786 ms)
+Unloading 10450 unused Assets / (6.8 MB). Loaded Objects now: 11299.
+Memory consumption went from 312.0 MB to 305.2 MB.
+Total: 12.140207 ms (FindLiveObjects: 0.586063 ms CreateObjectMapping: 0.716923 ms MarkObjects: 7.251303 ms  DeleteObjects: 3.585386 ms)
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.474 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.785 seconds
-Domain Reload Profiling: 1262ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (196ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (138ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (785ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (605ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (271ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (7.1 MB). Loaded Objects now: 11313.
-Memory consumption went from 301.1 MB to 294.0 MB.
-Total: 12.466548 ms (FindLiveObjects: 0.595329 ms CreateObjectMapping: 0.660589 ms MarkObjects: 6.803729 ms  DeleteObjects: 4.406286 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.476 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 1281ms
-	BeginReloadAssembly (107ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (329ms)
-		LoadAssemblies (203ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (143ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (801ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (620ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (283ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (7.6 MB). Loaded Objects now: 11315.
-Memory consumption went from 294.5 MB to 286.9 MB.
-Total: 11.699494 ms (FindLiveObjects: 0.597457 ms CreateObjectMapping: 0.655889 ms MarkObjects: 6.502538 ms  DeleteObjects: 3.942772 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3135.044474 seconds.
-  path: Assets/Assets/PolygonHeist/Prefab/Characters/FixedScaleCharacters
-  artifactKey: Guid(a1b4e08b033be8547938b2756273039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Prefab/Characters/FixedScaleCharacters using Guid(a1b4e08b033be8547938b2756273039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '947f724bbd7cfbbc6add78ff0f2d9c20') in 0.003658713 seconds
+  Time since last request: 1673.960679 seconds.
+  path: Assets/05States
+  artifactKey: Guid(f199127be4d74ecdbab770ad011a2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States using Guid(f199127be4d74ecdbab770ad011a2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c06cf5dfcbf4fe7704107c999755b713') in 0.014933419 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.833292 seconds.
-  path: Assets/Assets/PolygonHeist/Prefab/Characters/FixedScaleCharacters heist
-  artifactKey: Guid(a1b4e08b033be8547938b2756273039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Prefab/Characters/FixedScaleCharacters heist using Guid(a1b4e08b033be8547938b2756273039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1d33a7e6ab16313c21f0dc9d5e017a4') in 0.000279951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 47.820801 seconds.
+  path: Assets/05States/Basic Locomotion State.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65f82b6cd87711ea8207c5bf271736fa') in 0.113153126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.136595 seconds.
-  path: Assets/Assets/PolygonCity/Models/FixedScaleCharacters
-  artifactKey: Guid(575948b58fc863d4a9f5218f06c81fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/FixedScaleCharacters using Guid(575948b58fc863d4a9f5218f06c81fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff8c674ecf8924ba2669400deb756123') in 0.000273344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1.221010 seconds.
+  path: Assets/05States/Basic Locomotion State.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164a8de89bcc782d75039a159b333b92') in 0.101948621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.208625 seconds.
-  path: Assets/Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters
-  artifactKey: Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters using Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '989a72ebdf71df0ae58e258c4dc04ef3') in 0.000266249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 120.857145 seconds.
+  path: Assets/05States/Basic Locomotion State - Crouch.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Crouch.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2a36293e744e0617edcee338d547a9f') in 0.106487896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.298021 seconds.
-  path: Assets/Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters city prefabs
-  artifactKey: Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters city prefabs using Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bace0eb42d6e2c19ac42b2206bda65fc') in 0.000264572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.377402 seconds.
+  path: Assets/05States/Basic Locomotion State - Crouch 1.asset
+  artifactKey: Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Crouch 1.asset using Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a37f5b1051c06db758b0da7066939072') in 0.107058566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.283916 seconds.
-  path: Assets/Assets/PolygonHeist/Model/FixedScaleCharacters
-  artifactKey: Guid(ff4c4faabcbbc544b99858698210abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Model/FixedScaleCharacters using Guid(ff4c4faabcbbc544b99858698210abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d93b8166cd4fa263aeb43e6a6498cc') in 0.000343217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 6.367525 seconds.
+  path: Assets/05States/Basic Locomotion State - Jump.asset
+  artifactKey: Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Jump.asset using Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83d43fe46df70fecd68ab9591d2f00bb') in 0.107822988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.400883 seconds.
-  path: Assets/Assets/PolygonHeist/Model/FixedScaleCharacters heist
-  artifactKey: Guid(ff4c4faabcbbc544b99858698210abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonHeist/Model/FixedScaleCharacters heist using Guid(ff4c4faabcbbc544b99858698210abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c385c43e203df15dde4e1e09fbe7dccd') in 0.000313335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1.307305 seconds.
+  path: Assets/05States/Basic Locomotion State - Jump 1.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Jump 1.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ac46c61c244427ec0f3c528ebc7165') in 0.105230931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.767319 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Characters/FixedScale
-  artifactKey: Guid(940ac314674dfdb41815b4eacbeb2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Characters/FixedScale using Guid(940ac314674dfdb41815b4eacbeb2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2873a7773752e91f9876d3a81bc684') in 0.000278304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 8.517782 seconds.
+  path: Assets/05States/Basic Locomotion State -  Run.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State -  Run.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1859976672ddb52a0fd146f1f32dfae') in 0.103495607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.157355 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Characters/FixedScale dungeon prefabs
-  artifactKey: Guid(940ac314674dfdb41815b4eacbeb2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Characters/FixedScale dungeon prefabs using Guid(940ac314674dfdb41815b4eacbeb2602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b55d62f09383d347d29106d36d2a6725') in 0.000268649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 5.306121 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '394d0226ed696ee055c1f7e2c1e852fe') in 0.10584342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.369994 seconds.
-  path: Assets/PolygonDungeon/Models/FixedScale
-  artifactKey: Guid(89aa7df3eb1a5ec42bcf5d6e9f3053d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/FixedScale using Guid(89aa7df3eb1a5ec42bcf5d6e9f3053d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c83a71798a2df19ab084e376d53f1f7d') in 0.00039164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 151.225691 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c24de2603df5e442066a663bd2f4a4') in 0.1125323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.339321 seconds.
-  path: Assets/PolygonDungeon/Models/FixedScale dungeon
-  artifactKey: Guid(89aa7df3eb1a5ec42bcf5d6e9f3053d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/FixedScale dungeon using Guid(89aa7df3eb1a5ec42bcf5d6e9f3053d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47916d096483d3ad22a4760c39715510') in 0.0002465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 57.112508 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd1fe17cf7572bb01a971439ae0a60e') in 0.13853382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.119840 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/FixedScale
-  artifactKey: Guid(721fda69a3bca6f43bcb07262d1bc00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/FixedScale using Guid(721fda69a3bca6f43bcb07262d1bc00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '948409b49cf77446fd209a9e6ce7be2c') in 0.000263342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 86.463530 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '195080c0426cc3301ab596dc2de2217e') in 0.165594453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.649998 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/FixedScale fantasy hero/Models/ModularCharacters.fbx
-  artifactKey: Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/FixedScale fantasy hero/Models/ModularCharacters.fbx using Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad51a42ec1e16178888c2082bc14756') in 1.447519409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3120
+  Time since last request: 176.843403 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_F.anim
+  artifactKey: Guid(acb5800af7c174ed1b9b211e9eab1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_F.anim using Guid(acb5800af7c174ed1b9b211e9eab1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f40ababaaf12ec631cfc71fdc405f68') in 0.007217372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.782467 seconds.
-  path: Assets/PolygonFantasyHeroCharacters/FixedScale fantasy hero/Models/ModularCharacters fixed scale.fbx
-  artifactKey: Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonFantasyHeroCharacters/FixedScale fantasy hero/Models/ModularCharacters fixed scale.fbx using Guid(98a56ff2c8ee98645a4d3f79fa1506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16b299bd9f0acf813cd2d8888503671') in 1.246956075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3120
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.818 seconds
-Domain Reload Profiling: 1331ms
-	BeginReloadAssembly (121ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (210ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (154ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (819ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (641ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (293ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10447 unused Assets / (7.0 MB). Loaded Objects now: 11385.
-Memory consumption went from 325.5 MB to 318.5 MB.
-Total: 11.204012 ms (FindLiveObjects: 0.561123 ms CreateObjectMapping: 0.638028 ms MarkObjects: 6.394094 ms  DeleteObjects: 3.610102 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.496 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.915 seconds
-Domain Reload Profiling: 1414ms
-	BeginReloadAssembly (110ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (206ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (153ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (915ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (708ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (256ms)
-			ProcessInitializeOnLoadMethodAttributes (339ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (7.4 MB). Loaded Objects now: 11387.
-Memory consumption went from 330.5 MB to 323.2 MB.
-Total: 12.830965 ms (FindLiveObjects: 0.817076 ms CreateObjectMapping: 0.633341 ms MarkObjects: 7.220988 ms  DeleteObjects: 4.158913 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 190.109066 seconds.
-  path: Assets/01Scenes/02World.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01Scenes/02World.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a0ab5a8ef51111876c788257eb0b72d') in 0.001066331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.497 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.859 seconds
-Domain Reload Profiling: 1360ms
-	BeginReloadAssembly (111ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (345ms)
-		LoadAssemblies (211ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (151ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (860ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (673ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (323ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (7.4 MB). Loaded Objects now: 11389.
-Memory consumption went from 330.5 MB to 323.1 MB.
-Total: 12.875289 ms (FindLiveObjects: 0.725072 ms CreateObjectMapping: 1.322608 ms MarkObjects: 6.901131 ms  DeleteObjects: 3.925506 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 70.484566 seconds.
-  path: Assets/01Scenes/02World.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01Scenes/02World.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fe1e08eacbeb9fb60f844568e31f63c') in 0.001754344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 4.095666 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_B.anim
+  artifactKey: Guid(d5ea80d2a3bc44ed290a655baa9d69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_B.anim using Guid(d5ea80d2a3bc44ed290a655baa9d69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b7ed171906abdc0a719c9c7a68ac48') in 0.007303075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.460685 seconds.
-  path: Assets/02Prefabs/Player.prefab
-  artifactKey: Guid(f0ec71239d633de4890e5421ea93e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Player.prefab using Guid(f0ec71239d633de4890e5421ea93e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '362106cb9f9a490a286383402496b57c') in 1.317328268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6725
+  Time since last request: 2.088032 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BL.anim
+  artifactKey: Guid(906b494fdec4346c6bcf842476b50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BL.anim using Guid(906b494fdec4346c6bcf842476b50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee8c3940fa728fb02a5d2cb2772bb7df') in 0.006421516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.379487 seconds.
-  path: Assets/02Prefabs/CC-Choice.prefab
-  artifactKey: Guid(e291dfba88c19864181c549aeaaad257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/CC-Choice.prefab using Guid(e291dfba88c19864181c549aeaaad257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55ad73d52257f0985ab5fb81fcdca577') in 0.008331049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+  Time since last request: 2.630486 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BR.anim
+  artifactKey: Guid(318f75ba64f8144c9aa57ecb0ae46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BR.anim using Guid(318f75ba64f8144c9aa57ecb0ae46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7439fe1ee606edba91b4d615446e9ebf') in 0.006424496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.657868 seconds.
-  path: Assets/02Prefabs/Base
-  artifactKey: Guid(f5b255f31944678afa69c9115a980d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Base using Guid(f5b255f31944678afa69c9115a980d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '061200beece15f522c899347d7b63d51') in 0.000470568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 3.558122 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FL.anim
+  artifactKey: Guid(39c7e652658aa449d9b01679fe01dd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FL.anim using Guid(39c7e652658aa449d9b01679fe01dd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7f61db623b74c31c76671850ca0ef0e') in 0.007983089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.755156 seconds.
-  path: Assets/02Prefabs/Base/Hero.prefab
-  artifactKey: Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Base/Hero.prefab using Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab0aeb8f13e01f361ef74d996d797db') in 0.123733987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3575
+  Time since last request: 3.998775 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FR.anim
+  artifactKey: Guid(f7c71fb3b001347b4bfa6c4967805931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FR.anim using Guid(f7c71fb3b001347b4bfa6c4967805931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '750562b01a6611067037653f4f182f4b') in 0.006436872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.162028 seconds.
-  path: Assets/02Prefabs/Base/Hero.prefab
-  artifactKey: Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Base/Hero.prefab using Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d99433fbcf55be1dbe2fba7fb741e55') in 0.241086208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3631
+  Time since last request: 6.518354 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_L.anim
+  artifactKey: Guid(c4e9d37cb0ff648cf9c5374dcefa482a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_L.anim using Guid(c4e9d37cb0ff648cf9c5374dcefa482a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37a937b709eeb1add69a2b2dfbf6812') in 0.006701737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.498 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.805 seconds
-Domain Reload Profiling: 1307ms
-	BeginReloadAssembly (123ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (200ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (148ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (806ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (626ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (285ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10447 unused Assets / (7.5 MB). Loaded Objects now: 11411.
-Memory consumption went from 342.6 MB to 335.1 MB.
-Total: 11.494760 ms (FindLiveObjects: 0.669314 ms CreateObjectMapping: 0.712724 ms MarkObjects: 6.382204 ms  DeleteObjects: 3.729829 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 47.818948 seconds.
-  path: Assets/02Prefabs/Base/Hero.prefab
-  artifactKey: Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Base/Hero.prefab using Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4099f40505071b4866e2c90dc32d5134') in 0.507605468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3631
+  Time since last request: 2.434422 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_R.anim
+  artifactKey: Guid(0870ae6a79a654082904e2c2b8750ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_R.anim using Guid(0870ae6a79a654082904e2c2b8750ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5052c6e45ef93d12e8ae28a5c67f61cb') in 0.007467006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.497 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.856 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (120ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (202ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (857ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (673ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (309ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (8.0 MB). Loaded Objects now: 11433.
-Memory consumption went from 359.0 MB to 351.0 MB.
-Total: 12.506860 ms (FindLiveObjects: 0.730082 ms CreateObjectMapping: 0.833447 ms MarkObjects: 6.616256 ms  DeleteObjects: 4.326281 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.486 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.805 seconds
-Domain Reload Profiling: 1295ms
-	BeginReloadAssembly (111ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (205ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (147ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (805ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (628ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (285ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (7.9 MB). Loaded Objects now: 11435.
-Memory consumption went from 364.0 MB to 356.1 MB.
-Total: 11.650744 ms (FindLiveObjects: 0.716819 ms CreateObjectMapping: 0.792117 ms MarkObjects: 6.346590 ms  DeleteObjects: 3.794563 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 150.630779 seconds.
-  path: Assets/02Prefabs/Base/Hero.prefab
-  artifactKey: Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02Prefabs/Base/Hero.prefab using Guid(c034c721ba32b6db584926ff7c0bf274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d3a1928335726fa7bbaad38ff2c9bd') in 0.497914992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3631
+  Time since last request: 4.331228 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_B.anim
+  artifactKey: Guid(06f2c571e9fbf43b4974ea93406efb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_B.anim using Guid(06f2c571e9fbf43b4974ea93406efb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f9139180094d825cfc7467673e8f588') in 0.006519293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.507 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.838 seconds
-Domain Reload Profiling: 1349ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (201ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (838ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (655ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (301ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (6.8 MB). Loaded Objects now: 11457.
-Memory consumption went from 380.2 MB to 373.4 MB.
-Total: 11.017399 ms (FindLiveObjects: 0.678123 ms CreateObjectMapping: 0.712450 ms MarkObjects: 6.073284 ms  DeleteObjects: 3.552990 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.488 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.799 seconds
-Domain Reload Profiling: 1290ms
-	BeginReloadAssembly (112ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (204ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (148ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (799ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (274ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10446 unused Assets / (8.2 MB). Loaded Objects now: 11459.
-Memory consumption went from 374.9 MB to 366.7 MB.
-Total: 12.536031 ms (FindLiveObjects: 0.911247 ms CreateObjectMapping: 0.835174 ms MarkObjects: 6.695069 ms  DeleteObjects: 4.093917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 158.440672 seconds.
-  path: Assets/01Scenes/02World.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01Scenes/02World.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbab2d9d8a10b73f980969f122282c10') in 0.000937473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.457548 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BL.anim
+  artifactKey: Guid(69c5176cb9cb24abeb9b61a870367f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BL.anim using Guid(69c5176cb9cb24abeb9b61a870367f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95636aaf3d28987ebc8b44aa0b516f92') in 0.006405496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.108416 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BR.anim
+  artifactKey: Guid(080d17e4e81e947dcbfd896e215e417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BR.anim using Guid(080d17e4e81e947dcbfd896e215e417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a57af199ff66134763cc3926b73259') in 0.006431274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.473713 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_F.anim
+  artifactKey: Guid(64a57d2813a064eb1a17326d6221f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_F.anim using Guid(64a57d2813a064eb1a17326d6221f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '858f54d8072ed65f4580ea4eb79dd6ec') in 0.006620729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.752222 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_FL.anim
+  artifactKey: Guid(573bbb6c97468471d9594792687798d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_FL.anim using Guid(573bbb6c97468471d9594792687798d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a41b153fea7329f0f401f4970853d1a') in 0.006741804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.431725 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_FR.anim
+  artifactKey: Guid(98705d91e146f47d19d2ef71683d062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_FR.anim using Guid(98705d91e146f47d19d2ef71683d062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '630012eb1cf0d828ec8158285d0c5829') in 0.006446493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.013090 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_L.anim
+  artifactKey: Guid(ee85eed140d9b4cda84b387e6742cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_L.anim using Guid(ee85eed140d9b4cda84b387e6742cf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0534df3e72e3271cd2c209dc34d9a2a8') in 0.006711928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.449714 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_R.anim
+  artifactKey: Guid(e5fd586ee94b64891a97351be7e6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_R.anim using Guid(e5fd586ee94b64891a97351be7e6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7714a7d33b1f5deb60408e766911c2a3') in 0.00670606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.055393 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_R.anim
+  artifactKey: Guid(e5fd586ee94b64891a97351be7e6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_R.anim using Guid(e5fd586ee94b64891a97351be7e6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcab753452134506bb7e30edf5d2329b') in 0.007290556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.629624 seconds.
+  path: Assets/05States/Basic Locomotion State - Crouch 1.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Crouch 1.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dfe8f3177bc1da83333364ca5fcbf3d') in 0.105965337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.561987 seconds.
+  path: Assets/05States/Basic Locomotion State - Crouch.asset
+  artifactKey: Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Crouch.asset using Guid(949b7df66b33a859192fa0e08a47394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a68e4eb6dd792f58ea71d11d0d35ea0') in 0.158448054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.827022 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0305545351296711775f394d8cefa37') in 0.107440038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.914927 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_F.anim
+  artifactKey: Guid(acb5800af7c174ed1b9b211e9eab1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_F.anim using Guid(acb5800af7c174ed1b9b211e9eab1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890d293429068e9fa470885154a00dcc') in 0.006787248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.875610 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BL.anim
+  artifactKey: Guid(906b494fdec4346c6bcf842476b50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BL.anim using Guid(906b494fdec4346c6bcf842476b50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '995a310d7854c3686029d8a0f594b6f5') in 0.006442041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.571890 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FL.anim
+  artifactKey: Guid(39c7e652658aa449d9b01679fe01dd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FL.anim using Guid(39c7e652658aa449d9b01679fe01dd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b974386bd9e9e38d7e482d3ed01c2a6') in 0.00718232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.471995 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BL.anim
+  artifactKey: Guid(69c5176cb9cb24abeb9b61a870367f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Stand_Walk_BL.anim using Guid(69c5176cb9cb24abeb9b61a870367f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65ecbbd0cc76f3637c75dbcf75dfb8d4') in 0.009645482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565776 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FR.anim
+  artifactKey: Guid(f7c71fb3b001347b4bfa6c4967805931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_FR.anim using Guid(f7c71fb3b001347b4bfa6c4967805931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dfefd1b87fcdd6ad1b1418ab17d95ca') in 0.006360472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520308 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BR.anim
+  artifactKey: Guid(318f75ba64f8144c9aa57ecb0ae46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Characters@1.7.23/Assets/Animations/Walk/Human@Crouch_Walk_BR.anim using Guid(318f75ba64f8144c9aa57ecb0ae46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9fb3c6540793cee8feefca5bc1ef9b') in 0.006342353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.497196 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7033de569e620165e1f9a0c15ce13b84') in 0.104330447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.605449 seconds.
+  path: Assets/05States/Basic Locomotion State - Run.asset
+  artifactKey: Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Run.asset using Guid(691be71838e089fc085fe38f801d2c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933ea74e294385ddbffe4bf5cafda732') in 0.112485211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.711184 seconds.
+  path: Assets/Animations/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx
+  artifactKey: Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx using Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d1a5ec4e0b9dc0c0088962793de7fe') in 0.020992144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.283646 seconds.
+  path: Assets/Animations/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx
+  artifactKey: Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx using Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d4b7a5a2a71d2249321e38656253e18') in 0.003466119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.527362 seconds.
+  path: Assets/05States/Basic Locomotion State - Walk.asset
+  artifactKey: Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Walk.asset using Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e6a632940e8b4926e6354435896a419') in 0.107304976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.560699 seconds.
+  path: Assets/05States/Basic Locomotion State - Walk.asset
+  artifactKey: Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05States/Basic Locomotion State - Walk.asset using Guid(129bb8bcfa5256a5e8695451e94d6724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e9ff474e3562808790644ed15171e55') in 0.10922977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.063841 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+  artifactKey: Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx using Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b867045e7c7c5038ce122ad37818b80') in 0.00270557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.700536 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+  artifactKey: Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx using Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '555ec696be87888b6eb124fbcdf2417c') in 0.002698969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000889 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx
+  artifactKey: Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx using Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cab34a5fee3e69979b9dbead6396acb3') in 0.002018752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.729522 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx
+  artifactKey: Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx using Guid(ea1152d3598363b4ba8e5a2aaf1b9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d10df898419681754679d397a2103a2') in 0.002607631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.087630 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardLeft.fbx
+  artifactKey: Guid(873980f978ad4ae498266ffafd5bf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardLeft.fbx using Guid(873980f978ad4ae498266ffafd5bf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '670870d6c16d12960ff1ffb2f7fd32bb') in 0.002581584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.407910 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardRight.fbx
+  artifactKey: Guid(af6414bbb9bacf943bcbdf44d233bc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardRight.fbx using Guid(af6414bbb9bacf943bcbdf44d233bc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a849559df4a17ee148e6984ad081b34') in 0.002489548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.977801 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardRight.fbx
+  artifactKey: Guid(af6414bbb9bacf943bcbdf44d233bc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardRight.fbx using Guid(af6414bbb9bacf943bcbdf44d233bc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf22c1ddd6b00823894b73594753110a') in 0.002629142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.619128 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+  artifactKey: Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx using Guid(d18c13a5b4b923244a524a76a303e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933cbfa8cfcd55f465e448a29514f150') in 0.002516511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.705673 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx
+  artifactKey: Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx using Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1671c9c1f3787e9ff78cb38b90025f7d') in 0.002616612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.140775 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardRight.fbx
+  artifactKey: Guid(387b197aeb151d64686b217c74607f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardRight.fbx using Guid(387b197aeb151d64686b217c74607f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '434d7b08c7f313b18db261ab183ed2d7') in 0.002602837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.947147 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx
+  artifactKey: Guid(53ee308983da34a4d9eae29e5b8ebcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx using Guid(53ee308983da34a4d9eae29e5b8ebcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '274c81ac806de4ca2fbbd3884646db8d') in 0.002520203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.237822 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx
+  artifactKey: Guid(53ee308983da34a4d9eae29e5b8ebcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx using Guid(53ee308983da34a4d9eae29e5b8ebcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6a8da38069713dfa3777a2cdd45bb3c') in 0.002601959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.207793 seconds.
+  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Right.fbx
+  artifactKey: Guid(1cb35aa1eecdc0a44a7574a2f50af956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Right.fbx using Guid(1cb35aa1eecdc0a44a7574a2f50af956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56903eaa71e4048f469d881cc0ec0752') in 0.002584778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
 
