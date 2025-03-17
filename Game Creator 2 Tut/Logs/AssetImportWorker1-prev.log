@@ -25,7 +25,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-46671
+43861
 -job-worker-count
 13
 -background-job-worker-count
@@ -34,9 +34,9 @@ Logs/AssetImportWorker1.log
 1
 Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 
-(Unity:6502): Gtk-CRITICAL **: 20:32:18.523: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:5023): Gtk-CRITICAL **: 06:39:21.897: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:6502): Gtk-CRITICAL **: 20:32:18.537: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:5023): Gtk-CRITICAL **: 06:39:21.897: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /media/claudiu/Drive D/Dropbox/My Games/CV Games/Unity - Game Creator Tutorial Linux/Game Creator 2 Tut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -73,12 +73,12 @@ Successfully changed project path to: /media/claudiu/Drive D/Dropbox/My Games/CV
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [128611104007488]  Target information:
+Player connection [127498349606208]  Target information:
 
-Player connection [128611104007488]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 1138815871 [EditorId] 1138815871 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [127498349606208]  * "[IP] 192.168.100.104 [Port] 0 [Flags] 2 [Guid] 1157120194 [EditorId] 1157120194 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.104) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [128611104007488] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [128611104007488] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [127498349606208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [127498349606208] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -112,48 +112,48 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
 titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KH
 R_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1830154840
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1381791832
 Initialize mono
 Mono path[0] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56502
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56023
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/claudiu/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001315 seconds.
-- Loaded All Assemblies, in  0,178 seconds
+Registered in 0,001320 seconds.
+- Loaded All Assemblies, in  0,181 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,235 seconds
-Domain Reload Profiling: 413ms
+- Finished resetting the current domain, in  0,239 seconds
+Domain Reload Profiling: 420ms
 	BeginReloadAssembly (42ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (4ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
 		LoadAssemblies (42ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (72ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (197ms)
+		SetupLoadedEditorAssemblies (206ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
+			InitializePlatformSupportModulesInManaged (54ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,82 +163,50 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0,574 seconds
+- Loaded All Assemblies, in  0,564 seconds
 Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1,50 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,786 seconds
-Domain Reload Profiling: 1358ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0,779 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
 		LoadAssemblies (184ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (115ms)
-			BuildScriptInfoCaches (60ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
+			BuildScriptInfoCaches (58ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (786ms)
+	FinalizeReload (779ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (637ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (275ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 AutoLocale: current locale expects 'C' but got 'ro_RO.UTF-8'
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 221 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10450 unused Assets / (5.8 MB). Loaded Objects now: 11299.
-Memory consumption went from 310.0 MB to 304.2 MB.
-Total: 11.427835 ms (FindLiveObjects: 0.587494 ms CreateObjectMapping: 0.481624 ms MarkObjects: 6.995645 ms  DeleteObjects: 3.362474 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3053.372409 seconds.
-  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardLeft.fbx
-  artifactKey: Guid(873980f978ad4ae498266ffafd5bf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardLeft.fbx using Guid(873980f978ad4ae498266ffafd5bf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd561cf3330016f3446507c945fa8a1') in 0.027666364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.100720 seconds.
-  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx
-  artifactKey: Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx using Guid(59b6f459adee1bf4cbe2053a8f8c9f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1fc7ea90405aa92cad933acb29fb3ca') in 0.002571996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.706939 seconds.
-  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardRight.fbx
-  artifactKey: Guid(387b197aeb151d64686b217c74607f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardRight.fbx using Guid(387b197aeb151d64686b217c74607f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d037b16a782f0eed6a88c164cbc8fcb') in 0.002435889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.352562 seconds.
-  path: Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Right.fbx
-  artifactKey: Guid(1cb35aa1eecdc0a44a7574a2f50af956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Kevin Iglesias/Basic Motions/Animations/Female/Movement/Walk/HumanF@Walk01_Right.fbx using Guid(1cb35aa1eecdc0a44a7574a2f50af956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0fde8acf35462a80bb852951de26e45') in 0.002669685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+Unloading 10450 unused Assets / (5.7 MB). Loaded Objects now: 11299.
+Memory consumption went from 308.1 MB to 302.4 MB.
+Total: 12.774031 ms (FindLiveObjects: 0.751520 ms CreateObjectMapping: 0.749280 ms MarkObjects: 7.525119 ms  DeleteObjects: 3.747434 ms)
 
